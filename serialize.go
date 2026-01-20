@@ -2223,12 +2223,18 @@ func (obj *ToCltBlkData) serialize(w io.Writer) {
 		Blkpos [3]int16
 		//mt:zstd
 		Blk MapBlk
+		//mt:end
+		//mt:ifser
+		Version uint8
 	}))(obj)).Blkpos {
 		{
 			x := ((*(*(struct {
 				Blkpos [3]int16
 				//mt:zstd
 				Blk MapBlk
+				//mt:end
+				//mt:ifser
+				Version uint8
 			}))(obj)).Blkpos)[local69]
 			write16(w, uint16(x))
 		}
@@ -2241,6 +2247,9 @@ func (obj *ToCltBlkData) serialize(w io.Writer) {
 				Blkpos [3]int16
 				//mt:zstd
 				Blk MapBlk
+				//mt:end
+				//mt:ifser
+				Version uint8
 			}))(obj)).Blk).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
@@ -2250,6 +2259,17 @@ func (obj *ToCltBlkData) serialize(w io.Writer) {
 		}
 		chk(w.Close())
 	}
+	{
+		x := (*(*(struct {
+			Blkpos [3]int16
+			//mt:zstd
+			Blk MapBlk
+			//mt:end
+			//mt:ifser
+			Version uint8
+		}))(obj)).Version
+		write8(w, uint8(x))
+	}
 }
 
 func (obj *ToCltBlkData) deserialize(r io.Reader) {
@@ -2257,12 +2277,18 @@ func (obj *ToCltBlkData) deserialize(r io.Reader) {
 		Blkpos [3]int16
 		//mt:zstd
 		Blk MapBlk
+		//mt:end
+		//mt:ifser
+		Version uint8
 	}))(obj)).Blkpos {
 		{
 			p := &((*(*(struct {
 				Blkpos [3]int16
 				//mt:zstd
 				Blk MapBlk
+				//mt:end
+				//mt:ifser
+				Version uint8
 			}))(obj)).Blkpos)[local70]
 			*p = int16(read16(r))
 		}
@@ -2275,6 +2301,9 @@ func (obj *ToCltBlkData) deserialize(r io.Reader) {
 				Blkpos [3]int16
 				//mt:zstd
 				Blk MapBlk
+				//mt:end
+				//mt:ifser
+				Version uint8
 			}))(obj)).Blk).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
@@ -2284,6 +2313,21 @@ func (obj *ToCltBlkData) deserialize(r io.Reader) {
 		}
 		r.Close()
 	}
+	/*
+	   {
+
+	   	p := &(*(*(struct {
+	   		Blkpos	[3]int16
+	   		//mt:zstd
+	   		Blk	MapBlk
+	   		//mt:end
+	   		//mt:ifser
+	   		Version	uint8
+	   	}))(obj)).Version
+
+	   *p = read8(r)
+	   }
+	*/
 }
 
 func (obj *ToCltAddNode) serialize(w io.Writer) {
@@ -15966,6 +16010,7 @@ func (obj *ToCltStarParams) serialize(w io.Writer) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Visible
 		if x {
 			write8(w, 1)
@@ -15980,6 +16025,7 @@ func (obj *ToCltStarParams) serialize(w io.Writer) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Count
 		write32(w, uint32(x))
 	}
@@ -15990,6 +16036,7 @@ func (obj *ToCltStarParams) serialize(w io.Writer) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Color
 		w.Write([]byte{x.A, x.R, x.G, x.B})
 	}
@@ -16000,6 +16047,7 @@ func (obj *ToCltStarParams) serialize(w io.Writer) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Size
 		write32(w, math.Float32bits(x))
 	}
@@ -16010,8 +16058,20 @@ func (obj *ToCltStarParams) serialize(w io.Writer) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).DayOpacity
 		write32(w, math.Float32bits(x))
+	}
+	{
+		x := (*(*(struct {
+			Visible    bool
+			Count      uint32
+			Color      color.NRGBA
+			Size       float32
+			DayOpacity float32
+			Seed       uint64
+		}))(obj)).Seed
+		write64(w, uint64(x))
 	}
 }
 
@@ -16023,6 +16083,7 @@ func (obj *ToCltStarParams) deserialize(r io.Reader) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Visible
 		switch n := read8(r); n {
 		case 0:
@@ -16040,6 +16101,7 @@ func (obj *ToCltStarParams) deserialize(r io.Reader) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Count
 		*p = read32(r)
 	}
@@ -16050,6 +16112,7 @@ func (obj *ToCltStarParams) deserialize(r io.Reader) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Color
 		*p = color.NRGBA{A: read8(r), R: read8(r), G: read8(r), B: read8(r)}
 	}
@@ -16060,6 +16123,7 @@ func (obj *ToCltStarParams) deserialize(r io.Reader) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).Size
 		*p = math.Float32frombits(read32(r))
 	}
@@ -16070,8 +16134,20 @@ func (obj *ToCltStarParams) deserialize(r io.Reader) {
 			Color      color.NRGBA
 			Size       float32
 			DayOpacity float32
+			Seed       uint64
 		}))(obj)).DayOpacity
 		*p = math.Float32frombits(read32(r))
+	}
+	{
+		p := &(*(*(struct {
+			Visible    bool
+			Count      uint32
+			Color      color.NRGBA
+			Size       float32
+			DayOpacity float32
+			Seed       uint64
+		}))(obj)).Seed
+		*p = read64(r)
 	}
 }
 
@@ -28014,7 +28090,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28038,7 +28114,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28071,7 +28147,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -28095,7 +28171,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -28125,7 +28201,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28149,7 +28225,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28179,7 +28255,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28203,7 +28279,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28232,7 +28308,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -28256,7 +28332,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -28286,7 +28362,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28310,7 +28386,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28340,7 +28416,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28364,7 +28440,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28394,7 +28470,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28418,7 +28494,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28444,7 +28520,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -28452,7 +28528,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28476,7 +28552,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28502,14 +28578,14 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		for local280 := range (*(*(struct {
 			Type ItemType
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -28533,7 +28609,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -28561,7 +28637,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -28585,7 +28661,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -28616,7 +28692,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28640,7 +28716,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28670,7 +28746,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28694,7 +28770,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28728,7 +28804,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28752,7 +28828,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28786,7 +28862,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28810,7 +28886,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28843,7 +28919,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -28867,7 +28943,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -28897,7 +28973,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -28921,7 +28997,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -28950,7 +29026,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -28974,7 +29050,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -29002,7 +29078,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -29026,7 +29102,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -29060,7 +29136,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -29084,7 +29160,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -29114,7 +29190,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29138,7 +29214,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29168,7 +29244,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29192,7 +29268,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29222,7 +29298,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29246,7 +29322,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29280,7 +29356,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29304,7 +29380,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29338,7 +29414,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29362,7 +29438,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29392,7 +29468,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29416,7 +29492,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29450,7 +29526,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29474,7 +29550,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29504,7 +29580,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29528,7 +29604,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29554,7 +29630,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -29562,7 +29638,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29586,7 +29662,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29612,14 +29688,14 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		if len(([]byte((*(*(struct {
 			Type ItemType
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -29643,7 +29719,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -29673,7 +29749,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29697,7 +29773,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29727,7 +29803,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29751,7 +29827,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29781,7 +29857,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29805,7 +29881,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29839,7 +29915,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29863,7 +29939,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29897,7 +29973,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -29921,7 +29997,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -29954,7 +30030,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -29978,7 +30054,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -30006,7 +30082,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -30030,7 +30106,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -30061,7 +30137,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30085,7 +30161,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30119,7 +30195,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30143,7 +30219,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30176,7 +30252,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -30200,7 +30276,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -30230,7 +30306,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30254,7 +30330,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30284,7 +30360,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30308,7 +30384,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30338,7 +30414,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30362,7 +30438,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30395,7 +30471,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -30419,7 +30495,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -30447,7 +30523,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -30471,7 +30547,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -30543,7 +30619,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30567,7 +30643,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30611,7 +30687,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -30635,7 +30711,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -30673,7 +30749,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -30697,7 +30773,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -30725,7 +30801,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30749,7 +30825,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30775,7 +30851,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -30783,7 +30859,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30807,7 +30883,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -30833,14 +30909,14 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		for local288 := range (*(*(struct {
 			Type ItemType
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -30864,7 +30940,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -30892,7 +30968,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -30916,7 +30992,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -30947,7 +31023,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -30971,7 +31047,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31001,7 +31077,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31025,7 +31101,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31062,7 +31138,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31086,7 +31162,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31123,7 +31199,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31147,7 +31223,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31185,7 +31261,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -31209,7 +31285,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -31236,7 +31312,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -31260,7 +31336,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -31288,7 +31364,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -31312,7 +31388,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -31357,7 +31433,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -31381,7 +31457,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -31409,7 +31485,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31433,7 +31509,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31467,7 +31543,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31491,7 +31567,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31525,7 +31601,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31549,7 +31625,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31579,7 +31655,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31603,7 +31679,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31637,7 +31713,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31661,7 +31737,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31691,7 +31767,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31715,7 +31791,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31741,7 +31817,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -31749,7 +31825,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31773,7 +31849,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31799,7 +31875,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
 		}
 		var local293 []uint8
 		var local294 uint16
@@ -31817,7 +31893,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -31841,7 +31917,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -31869,7 +31945,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31893,7 +31969,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31927,7 +32003,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -31951,7 +32027,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -31985,7 +32061,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -32009,7 +32085,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -32045,7 +32121,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -32069,7 +32145,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -32097,7 +32173,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -32121,7 +32197,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -32152,7 +32228,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -32176,7 +32252,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -32213,7 +32289,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -32237,7 +32313,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -32281,7 +32357,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -32305,7 +32381,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -32333,7 +32409,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 				Name, Desc string
 
-				InvImg, WieldImg Texture
+				InvImg, WieldImg AnimTexture
 				WieldScale       [3]float32
 
 				StackMax uint16
@@ -32357,7 +32433,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				Color   color.NRGBA
 
 				// Texture overlays.
-				InvOverlay, WieldOverlay Texture
+				InvOverlay, WieldOverlay AnimTexture
 
 				ShortDesc string
 
@@ -32393,7 +32469,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			Name, Desc string
 
-			InvImg, WieldImg Texture
+			InvImg, WieldImg AnimTexture
 			WieldScale       [3]float32
 
 			StackMax uint16
@@ -32417,7 +32493,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			Color   color.NRGBA
 
 			// Texture overlays.
-			InvOverlay, WieldOverlay Texture
+			InvOverlay, WieldOverlay AnimTexture
 
 			ShortDesc string
 
@@ -32445,7 +32521,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 					Name, Desc string
 
-					InvImg, WieldImg Texture
+					InvImg, WieldImg AnimTexture
 					WieldScale       [3]float32
 
 					StackMax uint16
@@ -32469,7 +32545,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 					Color   color.NRGBA
 
 					// Texture overlays.
-					InvOverlay, WieldOverlay Texture
+					InvOverlay, WieldOverlay AnimTexture
 
 					ShortDesc string
 
@@ -44112,6 +44188,56 @@ func (obj *ItemType) deserialize(r io.Reader) {
 	{
 		p := &*(*(uint8))(obj)
 		*p = read8(r)
+	}
+}
+
+func (obj *AnimTexture) serialize(w io.Writer) {
+	if err := pcall(func() {
+		((*(*(struct {
+			Texture
+			Anim TileAnim
+		}))(obj)).Texture).serialize(w)
+	}); err != nil {
+		if err == io.EOF {
+			chk(io.EOF)
+		}
+		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+	}
+	if err := pcall(func() {
+		((*(*(struct {
+			Texture
+			Anim TileAnim
+		}))(obj)).Anim).serialize(w)
+	}); err != nil {
+		if err == io.EOF {
+			chk(io.EOF)
+		}
+		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+	}
+}
+
+func (obj *AnimTexture) deserialize(r io.Reader) {
+	if err := pcall(func() {
+		((*(*(struct {
+			Texture
+			Anim TileAnim
+		}))(obj)).Texture).deserialize(r)
+	}); err != nil {
+		if err == io.EOF {
+			chk(io.EOF)
+		}
+		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+	}
+	if err := pcall(func() {
+		((*(*(struct {
+			Texture
+			Anim TileAnim
+		}))(obj)).Anim).deserialize(r)
+	}); err != nil {
+		if err == io.EOF {
+			chk(io.EOF)
+		}
+		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
 	}
 }
 

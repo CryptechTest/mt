@@ -143,6 +143,15 @@ func structPragma(c *ast.Comment, sp *[]func(), expr string, de bool) {
 		*sp = append(*sp, func() {
 			fmt.Println("}")
 		})
+	case "ifser":
+		if de {
+			fmt.Println("/*")
+			*sp = append(*sp, func() {
+				fmt.Println("*/")
+			})
+		} else {
+			*sp = append(*sp, func() {})
+		}
 	case "ifde":
 		if !de {
 			fmt.Println("/*")

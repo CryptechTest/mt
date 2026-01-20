@@ -24,7 +24,7 @@ type ItemDef struct {
 
 	Name, Desc string
 
-	InvImg, WieldImg Texture
+	InvImg, WieldImg AnimTexture
 	WieldScale       [3]float32
 
 	StackMax uint16
@@ -48,7 +48,7 @@ type ItemDef struct {
 	Color   color.NRGBA
 
 	// Texture overlays.
-	InvOverlay, WieldOverlay Texture
+	InvOverlay, WieldOverlay AnimTexture
 
 	ShortDesc string
 

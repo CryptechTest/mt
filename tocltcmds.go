@@ -121,6 +121,9 @@ type ToCltBlkData struct {
 	//mt:zstd
 	Blk MapBlk
 	//mt:end
+	//mt:ifser
+	Version uint8
+	//mt:end
 }
 
 // ToCltAddNode tells the client that a nearby node changed
@@ -789,6 +792,7 @@ type ToCltStarParams struct {
 	Color      color.NRGBA
 	Size       float32
 	DayOpacity float32
+	Seed       uint64
 }
 
 // ToCltMovePlayerRel tells the client that the player has been moved
