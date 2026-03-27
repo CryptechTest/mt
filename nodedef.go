@@ -116,7 +116,7 @@ type NodeDef struct {
 	Palette Texture
 
 	Waving       WaveType
-	ConnectSides uint8
+	ConnectSides []string
 	ConnectTo    []Content
 	InsideTint   color.NRGBA
 	Level        uint8 // Must be < 128.
