@@ -1,4 +1,4 @@
-module github.com/HimbeerserverDE/mt
+module github.com/CryptechTest/mt
 
 go 1.16
 
