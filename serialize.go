@@ -17533,7 +17533,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -17616,7 +17616,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -17686,7 +17686,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -17756,7 +17756,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -17825,7 +17825,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -17895,7 +17895,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -17964,7 +17964,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -18032,7 +18032,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -18107,7 +18107,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -18181,7 +18181,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -18255,7 +18255,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -18328,7 +18328,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -18398,7 +18398,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -18468,7 +18468,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -18538,7 +18538,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -18614,7 +18614,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -18682,7 +18682,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -18756,7 +18756,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -18824,7 +18824,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -18905,7 +18905,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -18973,7 +18973,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -19048,7 +19048,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19118,7 +19118,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19192,7 +19192,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19266,7 +19266,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19311,7 +19311,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				LiquidMovePhysics bool
 				InsideTintShaded  bool
 			}))(obj)).ConnectSides
-			write8(w, uint8(x))
+			write16(w, uint16(x))
 		}
 		if len(((*(*(struct {
 			Param0 Content
@@ -19335,7 +19335,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -19405,7 +19405,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19474,7 +19474,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -19542,7 +19542,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -19617,7 +19617,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19687,7 +19687,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19757,7 +19757,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19831,7 +19831,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19905,7 +19905,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -19975,7 +19975,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20049,7 +20049,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20123,7 +20123,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20197,7 +20197,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20271,7 +20271,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20345,7 +20345,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20419,7 +20419,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20493,7 +20493,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20563,7 +20563,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20636,7 +20636,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -20706,7 +20706,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20776,7 +20776,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20845,7 +20845,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -20915,7 +20915,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -20985,7 +20985,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21055,7 +21055,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21125,7 +21125,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21199,7 +21199,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21269,7 +21269,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21339,7 +21339,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21413,7 +21413,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21487,7 +21487,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21561,7 +21561,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21635,7 +21635,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21709,7 +21709,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21783,7 +21783,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21857,7 +21857,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -21931,7 +21931,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22004,7 +22004,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -22074,7 +22074,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22144,7 +22144,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22214,7 +22214,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22284,7 +22284,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22358,7 +22358,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22428,7 +22428,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22502,7 +22502,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -22595,7 +22595,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -22697,7 +22697,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -22769,7 +22769,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -22836,7 +22836,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -22904,7 +22904,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -22979,7 +22979,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -23053,7 +23053,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -23127,7 +23127,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -23211,7 +23211,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -23279,7 +23279,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -23359,7 +23359,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -23427,7 +23427,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -23501,7 +23501,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -23569,7 +23569,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -23654,7 +23654,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -23722,7 +23722,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -23797,7 +23797,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -23867,7 +23867,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -23941,7 +23941,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24015,7 +24015,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24060,7 +24060,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				LiquidMovePhysics bool
 				InsideTintShaded  bool
 			}))(obj)).ConnectSides
-			*p = read8(r)
+			*p = read16(r)
 		}
 		var local246 uint16
 		{
@@ -24089,7 +24089,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -24156,7 +24156,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -24224,7 +24224,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					Palette Texture
 
 					Waving       WaveType
-					ConnectSides uint8
+					ConnectSides []string
 					ConnectTo    []Content
 					InsideTint   color.NRGBA
 					Level        uint8 // Must be < 128.
@@ -24299,7 +24299,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24369,7 +24369,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24439,7 +24439,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24516,7 +24516,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24593,7 +24593,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24663,7 +24663,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24740,7 +24740,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24817,7 +24817,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24891,7 +24891,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -24968,7 +24968,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25045,7 +25045,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25122,7 +25122,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25199,7 +25199,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25269,7 +25269,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25353,7 +25353,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -25431,7 +25431,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -25499,7 +25499,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25569,7 +25569,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25646,7 +25646,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25716,7 +25716,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25786,7 +25786,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25863,7 +25863,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -25937,7 +25937,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26011,7 +26011,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26085,7 +26085,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26159,7 +26159,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26233,7 +26233,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26307,7 +26307,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26384,7 +26384,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26471,7 +26471,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			Palette Texture
 
 			Waving       WaveType
-			ConnectSides uint8
+			ConnectSides []string
 			ConnectTo    []Content
 			InsideTint   color.NRGBA
 			Level        uint8 // Must be < 128.
@@ -26539,7 +26539,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26609,7 +26609,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26683,7 +26683,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26753,7 +26753,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
@@ -26830,7 +26830,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				Palette Texture
 
 				Waving       WaveType
-				ConnectSides uint8
+				ConnectSides []string
 				ConnectTo    []Content
 				InsideTint   color.NRGBA
 				Level        uint8 // Must be < 128.
