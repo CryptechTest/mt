@@ -1,6 +1,6 @@
 package mt
 
-import "github.com/CryptechTest/mt/rudp"
+import "github.com/HimbeerserverDE/mt/rudp"
 
 type ToSrvCmd interface {
 	Cmd
