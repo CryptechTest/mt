@@ -87,7 +87,7 @@ func (obj *ToSrvInit) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CompressionModes", err))
 	}
 	{
 		x := (*(*(struct {
@@ -197,7 +197,7 @@ func (obj *ToSrvInit) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CompressionModes", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -464,7 +464,7 @@ func (obj *ToSrvPlayerPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerPos", err))
 	}
 }
 
@@ -477,7 +477,7 @@ func (obj *ToSrvPlayerPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerPos", err))
 	}
 }
 
@@ -724,7 +724,7 @@ func (obj *ToSrvInteract) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Interaction", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Interaction", err))
 	}
 	{
 		x := (*(*(struct {
@@ -780,7 +780,7 @@ func (obj *ToSrvInteract) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerPos", err))
 	}
 }
 
@@ -798,7 +798,7 @@ func (obj *ToSrvInteract) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Interaction", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Interaction", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -850,7 +850,7 @@ func (obj *ToSrvInteract) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerPos", err))
 	}
 }
 
@@ -877,7 +877,7 @@ func (obj *ToSrvRemovedSounds) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 		}
 	}
 }
@@ -902,7 +902,7 @@ func (obj *ToSrvRemovedSounds) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 		}
 	}
 }
@@ -975,7 +975,7 @@ func (obj *ToSrvNodeMetaFields) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Field", err))
 		}
 	}
 }
@@ -1036,7 +1036,7 @@ func (obj *ToSrvNodeMetaFields) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Field", err))
 		}
 	}
 }
@@ -1088,7 +1088,7 @@ func (obj *ToSrvInvFields) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Field", err))
 		}
 	}
 }
@@ -1131,7 +1131,7 @@ func (obj *ToSrvInvFields) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Field", err))
 		}
 	}
 }
@@ -1796,7 +1796,7 @@ func (obj *ToCltHello) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CompressionModes", err))
 	}
 	{
 		x := (*(*(struct {
@@ -1820,7 +1820,7 @@ func (obj *ToCltHello) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AuthMethods", err))
 	}
 	if len(([]byte((*(*(struct {
 		SerializeVer uint8
@@ -1876,7 +1876,7 @@ func (obj *ToCltHello) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CompressionModes", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -1900,7 +1900,7 @@ func (obj *ToCltHello) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AuthMethods", err))
 	}
 	var local62 []uint8
 	var local63 uint16
@@ -1938,7 +1938,7 @@ func (obj *ToCltAcceptAuth) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	{
 		x := (*(*(struct {
@@ -1981,7 +1981,7 @@ func (obj *ToCltAcceptAuth) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AuthMethods", err))
 	}
 }
 
@@ -2001,7 +2001,7 @@ func (obj *ToCltAcceptAuth) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -2044,7 +2044,7 @@ func (obj *ToCltAcceptAuth) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AuthMethods", err))
 	}
 }
 
@@ -2057,7 +2057,7 @@ func (obj *ToCltAcceptSudoMode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AuthMethods", err))
 	}
 	{
 		local64 := [15]byte{}
@@ -2077,7 +2077,7 @@ func (obj *ToCltAcceptSudoMode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AuthMethods", err))
 	}
 	{
 		var local65 [15]byte
@@ -2110,7 +2110,7 @@ func (obj *ToCltKick) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.KickReason", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.KickReason", err))
 	}
 	if !((*(*(struct {
 		Reason KickReason
@@ -2173,7 +2173,7 @@ func (obj *ToCltKick) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.KickReason", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.KickReason", err))
 	}
 	if !((*(*(struct {
 		Reason KickReason
@@ -2255,7 +2255,7 @@ func (obj *ToCltBlkData) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlk", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.MapBlk", err))
 		}
 		chk(w.Close())
 	}
@@ -2309,7 +2309,7 @@ func (obj *ToCltBlkData) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlk", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.MapBlk", err))
 		}
 		r.Close()
 	}
@@ -2355,7 +2355,7 @@ func (obj *ToCltAddNode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Node", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Node", err))
 	}
 	{
 		x := (*(*(struct {
@@ -2396,7 +2396,7 @@ func (obj *ToCltAddNode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Node", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Node", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -2511,7 +2511,7 @@ func (obj *ToCltCSMRestrictionFlags) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CSMRestrictionFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CSMRestrictionFlags", err))
 	}
 	{
 		x := (*(*(struct {
@@ -2538,7 +2538,7 @@ func (obj *ToCltCSMRestrictionFlags) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CSMRestrictionFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CSMRestrictionFlags", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -2561,7 +2561,7 @@ func (obj *ToCltAddPlayerVel) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 }
 
@@ -2574,7 +2574,7 @@ func (obj *ToCltAddPlayerVel) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 }
 
@@ -2741,7 +2741,7 @@ func (obj *ToCltChatMsg) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ChatMsgType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ChatMsgType", err))
 	}
 	local82 := utf16.Encode([]rune((*(*(struct {
 		Type ChatMsgType
@@ -2823,7 +2823,7 @@ func (obj *ToCltChatMsg) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ChatMsgType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ChatMsgType", err))
 	}
 	var local88 []uint16
 	var local89 uint16
@@ -2907,7 +2907,7 @@ func (obj *ToCltAORmAdd) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -2936,7 +2936,7 @@ func (obj *ToCltAORmAdd) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAdd", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOAdd", err))
 		}
 	}
 }
@@ -2964,7 +2964,7 @@ func (obj *ToCltAORmAdd) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 		}
 	}
 	var local98 uint16
@@ -2989,7 +2989,7 @@ func (obj *ToCltAORmAdd) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAdd", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOAdd", err))
 		}
 	}
 }
@@ -3008,7 +3008,7 @@ func (obj *ToCltAOMsgs) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.IDAOMsg", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.IDAOMsg", err))
 		}
 	}
 }
@@ -3023,7 +3023,7 @@ func (obj *ToCltAOMsgs) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.IDAOMsg", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.IDAOMsg", err))
 			}
 		})
 		if err == io.EOF {
@@ -3095,7 +3095,7 @@ func (obj *ToCltMovePlayer) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	{
 		x := (*(*(struct {
@@ -3123,7 +3123,7 @@ func (obj *ToCltMovePlayer) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -3267,7 +3267,7 @@ func (obj *ToCltDeathScreen) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 }
 
@@ -3295,7 +3295,7 @@ func (obj *ToCltDeathScreen) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 }
 
@@ -4159,7 +4159,7 @@ func (obj *ToCltItemDefs) serialize(w io.Writer) {
 					if err == io.EOF {
 						chk(io.EOF)
 					}
-					chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemDef", err))
+					chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ItemDef", err))
 				}
 			}
 			if len(((*(*(struct {
@@ -4284,7 +4284,7 @@ func (obj *ToCltItemDefs) deserialize(r io.Reader) {
 					if err == io.EOF {
 						chk(io.EOF)
 					}
-					chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemDef", err))
+					chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ItemDef", err))
 				}
 			}
 			var local128 uint16
@@ -4361,7 +4361,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 	}
 	if len(([]byte((*(*(struct {
 		ID      SoundID
@@ -4444,7 +4444,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundSrcType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundSrcType", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4464,7 +4464,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4484,7 +4484,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
 		x := (*(*(struct {
@@ -4595,7 +4595,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 	}
 	var local134 []uint8
 	var local135 uint16
@@ -4655,7 +4655,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundSrcType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundSrcType", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4675,7 +4675,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4695,7 +4695,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -4802,7 +4802,7 @@ func (obj *ToCltStopSound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 	}
 }
 
@@ -4815,7 +4815,7 @@ func (obj *ToCltStopSound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 	}
 }
 
@@ -5384,7 +5384,7 @@ func (obj *ToCltSpawnParticle) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleParams", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleParams", err))
 	}
 }
 
@@ -5397,7 +5397,7 @@ func (obj *ToCltSpawnParticle) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleParams", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleParams", err))
 	}
 }
 
@@ -5551,7 +5551,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -5604,7 +5604,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -5657,7 +5657,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -5710,7 +5710,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -5763,7 +5763,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 	}
 	{
 		x := (*(*(struct {
@@ -6015,7 +6015,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleSpawnerID", err))
 	}
 	{
 		x := (*(*(struct {
@@ -6174,7 +6174,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6227,7 +6227,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 	{
 		x := (*(*(struct {
@@ -6382,7 +6382,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		x := (*(*(struct {
@@ -6533,7 +6533,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTexture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6586,7 +6586,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6639,7 +6639,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6692,7 +6692,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6745,7 +6745,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AttractionKind", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AttractionKind", err))
 	}
 	if (*(*(struct {
 		Amount         uint16
@@ -6844,7 +6844,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -6897,7 +6897,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenV3F32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -6950,7 +6950,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -7003,7 +7003,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleSpawnerFlags", err))
 		}
 		if (*(*(struct {
 			Amount         uint16
@@ -7102,7 +7102,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenV3F32", err))
 			}
 			if err := pcall(func() {
 				((*(*(struct {
@@ -7155,7 +7155,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 			}
 		}
 	}
@@ -7210,7 +7210,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if len(((*(*(struct {
 		Amount         uint16
@@ -7406,7 +7406,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTexture", err))
 		}
 	}
 }
@@ -7561,7 +7561,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7614,7 +7614,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7667,7 +7667,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7720,7 +7720,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7773,7 +7773,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -7939,7 +7939,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleSpawnerID", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -8104,7 +8104,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8157,7 +8157,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -8315,7 +8315,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -8466,7 +8466,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTexture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8519,7 +8519,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8572,7 +8572,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8625,7 +8625,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8678,7 +8678,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AttractionKind", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AttractionKind", err))
 	}
 	if (*(*(struct {
 		Amount         uint16
@@ -8777,7 +8777,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeF32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -8830,7 +8830,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenV3F32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -8883,7 +8883,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -8936,7 +8936,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleSpawnerFlags", err))
 		}
 		if (*(*(struct {
 			Amount         uint16
@@ -9035,7 +9035,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenV3F32", err))
 			}
 			if err := pcall(func() {
 				((*(*(struct {
@@ -9088,7 +9088,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 			}
 		}
 	}
@@ -9143,7 +9143,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenRangeV3F32", err))
 	}
 	var local153 uint16
 	{
@@ -9293,7 +9293,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTexture", err))
 		}
 	}
 }
@@ -9307,7 +9307,7 @@ func (obj *ToCltCam) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CamMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CamMode", err))
 	}
 }
 
@@ -9320,7 +9320,7 @@ func (obj *ToCltCam) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CamMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.CamMode", err))
 	}
 }
 
@@ -9334,7 +9334,7 @@ func (obj *ToCltAddHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9345,7 +9345,7 @@ func (obj *ToCltAddHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUD", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUD", err))
 	}
 }
 
@@ -9359,7 +9359,7 @@ func (obj *ToCltAddHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9370,7 +9370,7 @@ func (obj *ToCltAddHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUD", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUD", err))
 	}
 }
 
@@ -9383,7 +9383,7 @@ func (obj *ToCltRmHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDID", err))
 	}
 }
 
@@ -9396,7 +9396,7 @@ func (obj *ToCltRmHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDID", err))
 	}
 }
 
@@ -9453,7 +9453,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9507,7 +9507,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDField", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDField", err))
 	}
 	if !((*(*(struct {
 		ID HUDID
@@ -10929,7 +10929,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 		}
 	}
 	if (*(*(struct {
@@ -11472,7 +11472,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDStyleFlags", err))
 		}
 	}
 }
@@ -11530,7 +11530,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -11584,7 +11584,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDField", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDField", err))
 	}
 	if !((*(*(struct {
 		ID HUDID
@@ -12824,7 +12824,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 		}
 	}
 	if (*(*(struct {
@@ -13276,7 +13276,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDStyleFlags", err))
 		}
 	}
 }
@@ -13292,7 +13292,7 @@ func (obj *ToCltHUDFlags) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -13304,7 +13304,7 @@ func (obj *ToCltHUDFlags) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDFlags", err))
 	}
 }
 
@@ -13319,7 +13319,7 @@ func (obj *ToCltHUDFlags) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -13331,7 +13331,7 @@ func (obj *ToCltHUDFlags) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDFlags", err))
 	}
 }
 
@@ -13351,7 +13351,7 @@ func (obj *ToCltSetHotbarParam) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HotbarParam", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HotbarParam", err))
 	}
 	if (*(*(struct {
 		Param HotbarParam
@@ -13409,7 +13409,7 @@ func (obj *ToCltSetHotbarParam) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 	}
 }
@@ -13430,7 +13430,7 @@ func (obj *ToCltSetHotbarParam) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HotbarParam", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HotbarParam", err))
 	}
 	if (*(*(struct {
 		Param HotbarParam
@@ -13492,7 +13492,7 @@ func (obj *ToCltSetHotbarParam) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 	}
 }
@@ -13903,7 +13903,7 @@ func (obj *ToCltSkyParams) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 			}
 		}
 	}
@@ -14501,7 +14501,7 @@ func (obj *ToCltSkyParams) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 			}
 		}
 	}
@@ -14987,7 +14987,7 @@ func (obj *ToCltEyeOffset) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -14997,7 +14997,7 @@ func (obj *ToCltEyeOffset) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15007,7 +15007,7 @@ func (obj *ToCltEyeOffset) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 }
 
@@ -15020,7 +15020,7 @@ func (obj *ToCltEyeOffset) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15030,7 +15030,7 @@ func (obj *ToCltEyeOffset) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15040,7 +15040,7 @@ func (obj *ToCltEyeOffset) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 }
 
@@ -15053,7 +15053,7 @@ func (obj *ToCltDelParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleSpawnerID", err))
 	}
 }
 
@@ -15066,7 +15066,7 @@ func (obj *ToCltDelParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleSpawnerID", err))
 	}
 }
 
@@ -15275,7 +15275,7 @@ func (obj *ToCltFadeSound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 	}
 	{
 		x := (*(*(struct {
@@ -15306,7 +15306,7 @@ func (obj *ToCltFadeSound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundID", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -15336,7 +15336,7 @@ func (obj *ToCltUpdatePlayerList) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerListUpdateType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerListUpdateType", err))
 	}
 	if len(((*(*(struct {
 		Type    PlayerListUpdateType
@@ -15388,7 +15388,7 @@ func (obj *ToCltUpdatePlayerList) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerListUpdateType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerListUpdateType", err))
 	}
 	var local192 uint16
 	{
@@ -15554,7 +15554,7 @@ func (obj *ToCltModChanSig) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ModChanSig", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ModChanSig", err))
 	}
 	if len(([]byte((*(*(struct {
 		Signal  ModChanSig
@@ -15588,7 +15588,7 @@ func (obj *ToCltModChanSig) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ModChanSig", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ModChanSig", err))
 	}
 	var local202 []uint8
 	var local203 uint16
@@ -15742,7 +15742,7 @@ func (obj *ToCltSunParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15757,7 +15757,7 @@ func (obj *ToCltSunParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15772,7 +15772,7 @@ func (obj *ToCltSunParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -15834,7 +15834,7 @@ func (obj *ToCltSunParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15849,7 +15849,7 @@ func (obj *ToCltSunParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15864,7 +15864,7 @@ func (obj *ToCltSunParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -15922,7 +15922,7 @@ func (obj *ToCltMoonParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15935,7 +15935,7 @@ func (obj *ToCltMoonParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -15976,7 +15976,7 @@ func (obj *ToCltMoonParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -15989,7 +15989,7 @@ func (obj *ToCltMoonParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -16160,7 +16160,7 @@ func (obj *ToCltMovePlayerRel) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 }
 
@@ -16173,7 +16173,7 @@ func (obj *ToCltMovePlayerRel) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 }
 
@@ -16787,7 +16787,7 @@ func (obj *ToCltSpawnParticleBatch) serialize(w io.Writer) {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleParams", err))
+						chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleParams", err))
 					}
 					{
 						buf := w
@@ -16853,7 +16853,7 @@ func (obj *ToCltSpawnParticleBatch) deserialize(r io.Reader) {
 							if err == io.EOF {
 								chk(io.EOF)
 							}
-							chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleParams", err))
+							chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleParams", err))
 						}
 						if r.N > 0 {
 							chk(fmt.Errorf("%d bytes of trailing data", r.N))
@@ -16897,7 +16897,7 @@ func (obj *AOCmdProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOProps", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOProps", err))
 	}
 }
 
@@ -16910,7 +16910,7 @@ func (obj *AOCmdProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOProps", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOProps", err))
 	}
 }
 
@@ -16923,7 +16923,7 @@ func (obj *AOCmdPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOPos", err))
 	}
 }
 
@@ -16936,7 +16936,7 @@ func (obj *AOCmdPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOPos", err))
 	}
 }
 
@@ -16949,7 +16949,7 @@ func (obj *AOCmdTextureMod) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 }
 
@@ -16962,7 +16962,7 @@ func (obj *AOCmdTextureMod) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 }
 
@@ -16975,7 +16975,7 @@ func (obj *AOCmdSprite) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOSprite", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOSprite", err))
 	}
 }
 
@@ -16988,7 +16988,7 @@ func (obj *AOCmdSprite) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOSprite", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOSprite", err))
 	}
 }
 
@@ -17033,7 +17033,7 @@ func (obj *AOCmdArmorGroups) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 		}
 	}
 }
@@ -17058,7 +17058,7 @@ func (obj *AOCmdArmorGroups) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 		}
 	}
 }
@@ -17072,7 +17072,7 @@ func (obj *AOCmdAnim) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOAnim", err))
 	}
 }
 
@@ -17085,7 +17085,7 @@ func (obj *AOCmdAnim) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOAnim", err))
 	}
 }
 
@@ -17119,7 +17119,7 @@ func (obj *AOCmdBonePos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOBoneOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOBoneOverride", err))
 	}
 }
 
@@ -17148,7 +17148,7 @@ func (obj *AOCmdBonePos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOBoneOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOBoneOverride", err))
 	}
 }
 
@@ -17161,7 +17161,7 @@ func (obj *AOCmdAttach) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAttach", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOAttach", err))
 	}
 }
 
@@ -17174,7 +17174,7 @@ func (obj *AOCmdAttach) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAttach", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOAttach", err))
 	}
 }
 
@@ -17187,7 +17187,7 @@ func (obj *AOCmdPhysOverride) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPhysOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOPhysOverride", err))
 	}
 }
 
@@ -17200,7 +17200,7 @@ func (obj *AOCmdPhysOverride) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPhysOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOPhysOverride", err))
 	}
 }
 
@@ -17213,7 +17213,7 @@ func (obj *AOCmdSpawnInfant) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
 		local215 := genericCAO
@@ -17223,7 +17223,7 @@ func (obj *AOCmdSpawnInfant) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.aoType", err))
 		}
 	}
 }
@@ -17237,7 +17237,7 @@ func (obj *AOCmdSpawnInfant) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
 		var local216 aoType
@@ -17248,7 +17248,7 @@ func (obj *AOCmdSpawnInfant) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.aoType", err))
 		}
 		if local216 != local217 {
 			chk(fmt.Errorf("const %v: %v", "genericCAO", local216))
@@ -17309,7 +17309,7 @@ func (obj *NodeMeta) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeMetaField", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeMetaField", err))
 		}
 	}
 	chk(((*(*(struct {
@@ -17349,7 +17349,7 @@ func (obj *NodeMeta) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeMetaField", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeMetaField", err))
 		}
 	}
 	chk(((*(*(struct {
@@ -17373,7 +17373,7 @@ func (obj *MinimapMode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MinimapType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.MinimapType", err))
 	}
 	if len(([]byte((*(*(struct {
 		Type  MinimapType
@@ -17426,7 +17426,7 @@ func (obj *MinimapMode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -17453,7 +17453,7 @@ func (obj *MinimapMode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MinimapType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.MinimapType", err))
 	}
 	var local221 []uint8
 	var local222 uint16
@@ -17495,7 +17495,7 @@ func (obj *MinimapMode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -17582,7 +17582,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		ow := w
@@ -18081,7 +18081,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 			}
 		}
 		if err := pcall(func() {
@@ -18156,7 +18156,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param1Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Param1Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -18230,7 +18230,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param2Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Param2Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -18304,7 +18304,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DrawType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DrawType", err))
 		}
 		if len(([]byte((*(*(struct {
 			Param0 Content
@@ -18731,7 +18731,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileDef", err))
 			}
 		}
 		for local227 := range (*(*(struct {
@@ -18873,7 +18873,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileDef", err))
 			}
 		}
 		{
@@ -19022,7 +19022,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileDef", err))
 			}
 		}
 		{
@@ -19167,7 +19167,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -19241,10 +19241,79 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WaveType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.WaveType", err))
+		}
+		if len(((*(*(struct {
+			Param0 Content
+
+			Name   string
+			Groups []Group
+
+			P1Type   Param1Type
+			P2Type   Param2Type
+			DrawType DrawType
+
+			Mesh  string
+			Scale float32
+			//mt:const uint8(6)
+			Tiles        [6]TileDef
+			OverlayTiles [6]TileDef
+			//mt:const uint8(6)
+			SpecialTiles [6]TileDef
+
+			Color   color.NRGBA
+			Palette Texture
+
+			Waving       WaveType
+			ConnectSides []string
+			ConnectTo    []Content
+			InsideTint   color.NRGBA
+			Level        uint8 // Must be < 128.
+
+			Translucent bool // Sunlight is scattered and becomes normal light.
+			Transparent bool // Sunlight isn't scattered.
+			LightSrc    uint8
+
+			GndContent   bool
+			Collides     bool
+			PointType    PointabilityType
+			Diggable     bool
+			Climbable    bool
+			Replaceable  bool
+			OnRightClick bool
+
+			DmgPerSec int32
+
+			LiquidType   LiquidType
+			FlowingAlt   string
+			SrcAlt       string
+			Viscosity    uint8 // 0-7
+			LiqRenewable bool
+			FlowRange    uint8
+			DrownDmg     uint8
+			Floodable    bool
+
+			DrawBox, ColBox, SelBox NodeBox
+
+			FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+			LegacyFaceDir bool
+			LegacyMounted bool
+
+			DigPredict string
+
+			MaxLvl uint8
+
+			AlphaUse
+
+			MoveResistance    uint8
+			LiquidMovePhysics bool
+			InsideTintShaded  bool
+		}))(obj)).ConnectSides)) > math.MaxUint16 {
+			chk(ErrTooLong)
 		}
 		{
-			x := (*(*(struct {
+			x := uint16(len(((*(*(struct {
 				Param0 Content
 
 				Name   string
@@ -19310,8 +19379,285 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				MoveResistance    uint8
 				LiquidMovePhysics bool
 				InsideTintShaded  bool
-			}))(obj)).ConnectSides
+			}))(obj)).ConnectSides)))
 			write16(w, uint16(x))
+		}
+		for local230 := range (*(*(struct {
+			Param0 Content
+
+			Name   string
+			Groups []Group
+
+			P1Type   Param1Type
+			P2Type   Param2Type
+			DrawType DrawType
+
+			Mesh  string
+			Scale float32
+			//mt:const uint8(6)
+			Tiles        [6]TileDef
+			OverlayTiles [6]TileDef
+			//mt:const uint8(6)
+			SpecialTiles [6]TileDef
+
+			Color   color.NRGBA
+			Palette Texture
+
+			Waving       WaveType
+			ConnectSides []string
+			ConnectTo    []Content
+			InsideTint   color.NRGBA
+			Level        uint8 // Must be < 128.
+
+			Translucent bool // Sunlight is scattered and becomes normal light.
+			Transparent bool // Sunlight isn't scattered.
+			LightSrc    uint8
+
+			GndContent   bool
+			Collides     bool
+			PointType    PointabilityType
+			Diggable     bool
+			Climbable    bool
+			Replaceable  bool
+			OnRightClick bool
+
+			DmgPerSec int32
+
+			LiquidType   LiquidType
+			FlowingAlt   string
+			SrcAlt       string
+			Viscosity    uint8 // 0-7
+			LiqRenewable bool
+			FlowRange    uint8
+			DrownDmg     uint8
+			Floodable    bool
+
+			DrawBox, ColBox, SelBox NodeBox
+
+			FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+			LegacyFaceDir bool
+			LegacyMounted bool
+
+			DigPredict string
+
+			MaxLvl uint8
+
+			AlphaUse
+
+			MoveResistance    uint8
+			LiquidMovePhysics bool
+			InsideTintShaded  bool
+		}))(obj)).ConnectSides {
+			if len(([]byte(((*(*(struct {
+				Param0 Content
+
+				Name   string
+				Groups []Group
+
+				P1Type   Param1Type
+				P2Type   Param2Type
+				DrawType DrawType
+
+				Mesh  string
+				Scale float32
+				//mt:const uint8(6)
+				Tiles        [6]TileDef
+				OverlayTiles [6]TileDef
+				//mt:const uint8(6)
+				SpecialTiles [6]TileDef
+
+				Color   color.NRGBA
+				Palette Texture
+
+				Waving       WaveType
+				ConnectSides []string
+				ConnectTo    []Content
+				InsideTint   color.NRGBA
+				Level        uint8 // Must be < 128.
+
+				Translucent bool // Sunlight is scattered and becomes normal light.
+				Transparent bool // Sunlight isn't scattered.
+				LightSrc    uint8
+
+				GndContent   bool
+				Collides     bool
+				PointType    PointabilityType
+				Diggable     bool
+				Climbable    bool
+				Replaceable  bool
+				OnRightClick bool
+
+				DmgPerSec int32
+
+				LiquidType   LiquidType
+				FlowingAlt   string
+				SrcAlt       string
+				Viscosity    uint8 // 0-7
+				LiqRenewable bool
+				FlowRange    uint8
+				DrownDmg     uint8
+				Floodable    bool
+
+				DrawBox, ColBox, SelBox NodeBox
+
+				FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+				LegacyFaceDir bool
+				LegacyMounted bool
+
+				DigPredict string
+
+				MaxLvl uint8
+
+				AlphaUse
+
+				MoveResistance    uint8
+				LiquidMovePhysics bool
+				InsideTintShaded  bool
+			}))(obj)).ConnectSides)[local230]))) > math.MaxUint16 {
+				chk(ErrTooLong)
+			}
+			{
+				x := uint16(len(([]byte(((*(*(struct {
+					Param0 Content
+
+					Name   string
+					Groups []Group
+
+					P1Type   Param1Type
+					P2Type   Param2Type
+					DrawType DrawType
+
+					Mesh  string
+					Scale float32
+					//mt:const uint8(6)
+					Tiles        [6]TileDef
+					OverlayTiles [6]TileDef
+					//mt:const uint8(6)
+					SpecialTiles [6]TileDef
+
+					Color   color.NRGBA
+					Palette Texture
+
+					Waving       WaveType
+					ConnectSides []string
+					ConnectTo    []Content
+					InsideTint   color.NRGBA
+					Level        uint8 // Must be < 128.
+
+					Translucent bool // Sunlight is scattered and becomes normal light.
+					Transparent bool // Sunlight isn't scattered.
+					LightSrc    uint8
+
+					GndContent   bool
+					Collides     bool
+					PointType    PointabilityType
+					Diggable     bool
+					Climbable    bool
+					Replaceable  bool
+					OnRightClick bool
+
+					DmgPerSec int32
+
+					LiquidType   LiquidType
+					FlowingAlt   string
+					SrcAlt       string
+					Viscosity    uint8 // 0-7
+					LiqRenewable bool
+					FlowRange    uint8
+					DrownDmg     uint8
+					Floodable    bool
+
+					DrawBox, ColBox, SelBox NodeBox
+
+					FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+					LegacyFaceDir bool
+					LegacyMounted bool
+
+					DigPredict string
+
+					MaxLvl uint8
+
+					AlphaUse
+
+					MoveResistance    uint8
+					LiquidMovePhysics bool
+					InsideTintShaded  bool
+				}))(obj)).ConnectSides)[local230]))))
+				write16(w, uint16(x))
+			}
+			{
+				_, err := w.Write(([]byte(((*(*(struct {
+					Param0 Content
+
+					Name   string
+					Groups []Group
+
+					P1Type   Param1Type
+					P2Type   Param2Type
+					DrawType DrawType
+
+					Mesh  string
+					Scale float32
+					//mt:const uint8(6)
+					Tiles        [6]TileDef
+					OverlayTiles [6]TileDef
+					//mt:const uint8(6)
+					SpecialTiles [6]TileDef
+
+					Color   color.NRGBA
+					Palette Texture
+
+					Waving       WaveType
+					ConnectSides []string
+					ConnectTo    []Content
+					InsideTint   color.NRGBA
+					Level        uint8 // Must be < 128.
+
+					Translucent bool // Sunlight is scattered and becomes normal light.
+					Transparent bool // Sunlight isn't scattered.
+					LightSrc    uint8
+
+					GndContent   bool
+					Collides     bool
+					PointType    PointabilityType
+					Diggable     bool
+					Climbable    bool
+					Replaceable  bool
+					OnRightClick bool
+
+					DmgPerSec int32
+
+					LiquidType   LiquidType
+					FlowingAlt   string
+					SrcAlt       string
+					Viscosity    uint8 // 0-7
+					LiqRenewable bool
+					FlowRange    uint8
+					DrownDmg     uint8
+					Floodable    bool
+
+					DrawBox, ColBox, SelBox NodeBox
+
+					FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+					LegacyFaceDir bool
+					LegacyMounted bool
+
+					DigPredict string
+
+					MaxLvl uint8
+
+					AlphaUse
+
+					MoveResistance    uint8
+					LiquidMovePhysics bool
+					InsideTintShaded  bool
+				}))(obj)).ConnectSides)[local230]))[:])
+				chk(err)
+			}
 		}
 		if len(((*(*(struct {
 			Param0 Content
@@ -19452,7 +19798,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			}))(obj)).ConnectTo)))
 			write16(w, uint16(x))
 		}
-		for local230 := range (*(*(struct {
+		for local231 := range (*(*(struct {
 			Param0 Content
 
 			Name   string
@@ -19586,12 +19932,12 @@ func (obj *NodeDef) serialize(w io.Writer) {
 					MoveResistance    uint8
 					LiquidMovePhysics bool
 					InsideTintShaded  bool
-				}))(obj)).ConnectTo)[local230]).serialize(w)
+				}))(obj)).ConnectTo)[local231]).serialize(w)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 			}
 		}
 		{
@@ -20172,7 +20518,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PointabilityType", err))
 		}
 		{
 			x := (*(*(struct {
@@ -20612,7 +20958,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LiquidType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.LiquidType", err))
 		}
 		if len(([]byte((*(*(struct {
 			Param0 Content
@@ -21462,7 +21808,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -21536,7 +21882,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -21610,7 +21956,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -21684,7 +22030,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -21758,7 +22104,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -21832,7 +22178,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		{
 			x := (*(*(struct {
@@ -22333,7 +22679,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlphaUse", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AlphaUse", err))
 		}
 		{
 			x := (*(*(struct {
@@ -22644,7 +22990,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		var n uint16
@@ -22654,25 +23000,25 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 		}
 		r := &io.LimitedReader{R: r, N: int64(n)}
 		{
-			var local231 uint8
-			local232 := uint8(13)
+			var local232 uint8
+			local233 := uint8(13)
 			{
-				p := &local231
+				p := &local232
 				*p = read8(r)
 			}
-			if local231 != local232 {
-				chk(fmt.Errorf("const %v: %v", "uint8(13)", local231))
+			if local232 != local233 {
+				chk(fmt.Errorf("const %v: %v", "uint8(13)", local232))
 			}
 		}
-		var local233 []uint8
-		var local234 uint16
+		var local234 []uint8
+		var local235 uint16
 		{
-			p := &local234
+			p := &local235
 			*p = read16(r)
 		}
-		(local233) = make([]uint8, local234)
+		(local234) = make([]uint8, local235)
 		{
-			_, err := io.ReadFull(r, (local233)[:])
+			_, err := io.ReadFull(r, (local234)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -22741,10 +23087,10 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			MoveResistance    uint8
 			LiquidMovePhysics bool
 			InsideTintShaded  bool
-		}))(obj)).Name) = string(local233)
-		var local235 uint16
+		}))(obj)).Name) = string(local234)
+		var local236 uint16
 		{
-			p := &local235
+			p := &local236
 			*p = read16(r)
 		}
 		((*(*(struct {
@@ -22813,8 +23159,8 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			MoveResistance    uint8
 			LiquidMovePhysics bool
 			InsideTintShaded  bool
-		}))(obj)).Groups) = make([]Group, local235)
-		for local236 := range (*(*(struct {
+		}))(obj)).Groups) = make([]Group, local236)
+		for local237 := range (*(*(struct {
 			Param0 Content
 
 			Name   string
@@ -22948,12 +23294,12 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					MoveResistance    uint8
 					LiquidMovePhysics bool
 					InsideTintShaded  bool
-				}))(obj)).Groups)[local236]).deserialize(r)
+				}))(obj)).Groups)[local237]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 			}
 		}
 		if err := pcall(func() {
@@ -23028,7 +23374,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param1Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Param1Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -23102,7 +23448,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param2Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Param2Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -23176,17 +23522,17 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DrawType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DrawType", err))
 		}
-		var local237 []uint8
-		var local238 uint16
+		var local238 []uint8
+		var local239 uint16
 		{
-			p := &local238
+			p := &local239
 			*p = read16(r)
 		}
-		(local237) = make([]uint8, local238)
+		(local238) = make([]uint8, local239)
 		{
-			_, err := io.ReadFull(r, (local237)[:])
+			_, err := io.ReadFull(r, (local238)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -23255,7 +23601,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			MoveResistance    uint8
 			LiquidMovePhysics bool
 			InsideTintShaded  bool
-		}))(obj)).Mesh) = string(local237)
+		}))(obj)).Mesh) = string(local238)
 		{
 			p := &(*(*(struct {
 				Param0 Content
@@ -23327,17 +23673,17 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			*p = math.Float32frombits(read32(r))
 		}
 		{
-			var local239 uint8
-			local240 := uint8(6)
+			var local240 uint8
+			local241 := uint8(6)
 			{
-				p := &local239
+				p := &local240
 				*p = read8(r)
 			}
-			if local239 != local240 {
-				chk(fmt.Errorf("const %v: %v", "uint8(6)", local239))
+			if local240 != local241 {
+				chk(fmt.Errorf("const %v: %v", "uint8(6)", local240))
 			}
 		}
-		for local241 := range (*(*(struct {
+		for local242 := range (*(*(struct {
 			Param0 Content
 
 			Name   string
@@ -23471,15 +23817,15 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					MoveResistance    uint8
 					LiquidMovePhysics bool
 					InsideTintShaded  bool
-				}))(obj)).Tiles)[local241]).deserialize(r)
+				}))(obj)).Tiles)[local242]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileDef", err))
 			}
 		}
-		for local242 := range (*(*(struct {
+		for local243 := range (*(*(struct {
 			Param0 Content
 
 			Name   string
@@ -23613,26 +23959,26 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					MoveResistance    uint8
 					LiquidMovePhysics bool
 					InsideTintShaded  bool
-				}))(obj)).OverlayTiles)[local242]).deserialize(r)
+				}))(obj)).OverlayTiles)[local243]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileDef", err))
 			}
 		}
 		{
-			var local243 uint8
-			local244 := uint8(6)
+			var local244 uint8
+			local245 := uint8(6)
 			{
-				p := &local243
+				p := &local244
 				*p = read8(r)
 			}
-			if local243 != local244 {
-				chk(fmt.Errorf("const %v: %v", "uint8(6)", local243))
+			if local244 != local245 {
+				chk(fmt.Errorf("const %v: %v", "uint8(6)", local244))
 			}
 		}
-		for local245 := range (*(*(struct {
+		for local246 := range (*(*(struct {
 			Param0 Content
 
 			Name   string
@@ -23766,12 +24112,12 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					MoveResistance    uint8
 					LiquidMovePhysics bool
 					InsideTintShaded  bool
-				}))(obj)).SpecialTiles)[local245]).deserialize(r)
+				}))(obj)).SpecialTiles)[local246]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileDef", err))
 			}
 		}
 		{
@@ -23916,7 +24262,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -23990,81 +24336,11 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WaveType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.WaveType", err))
 		}
+		var local247 uint16
 		{
-			p := &(*(*(struct {
-				Param0 Content
-
-				Name   string
-				Groups []Group
-
-				P1Type   Param1Type
-				P2Type   Param2Type
-				DrawType DrawType
-
-				Mesh  string
-				Scale float32
-				//mt:const uint8(6)
-				Tiles        [6]TileDef
-				OverlayTiles [6]TileDef
-				//mt:const uint8(6)
-				SpecialTiles [6]TileDef
-
-				Color   color.NRGBA
-				Palette Texture
-
-				Waving       WaveType
-				ConnectSides []string
-				ConnectTo    []Content
-				InsideTint   color.NRGBA
-				Level        uint8 // Must be < 128.
-
-				Translucent bool // Sunlight is scattered and becomes normal light.
-				Transparent bool // Sunlight isn't scattered.
-				LightSrc    uint8
-
-				GndContent   bool
-				Collides     bool
-				PointType    PointabilityType
-				Diggable     bool
-				Climbable    bool
-				Replaceable  bool
-				OnRightClick bool
-
-				DmgPerSec int32
-
-				LiquidType   LiquidType
-				FlowingAlt   string
-				SrcAlt       string
-				Viscosity    uint8 // 0-7
-				LiqRenewable bool
-				FlowRange    uint8
-				DrownDmg     uint8
-				Floodable    bool
-
-				DrawBox, ColBox, SelBox NodeBox
-
-				FootstepSnd, DiggingSnd, DugSnd SoundDef
-
-				LegacyFaceDir bool
-				LegacyMounted bool
-
-				DigPredict string
-
-				MaxLvl uint8
-
-				AlphaUse
-
-				MoveResistance    uint8
-				LiquidMovePhysics bool
-				InsideTintShaded  bool
-			}))(obj)).ConnectSides
-			*p = read16(r)
-		}
-		var local246 uint16
-		{
-			p := &local246
+			p := &local247
 			*p = read16(r)
 		}
 		((*(*(struct {
@@ -24133,8 +24409,226 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			MoveResistance    uint8
 			LiquidMovePhysics bool
 			InsideTintShaded  bool
-		}))(obj)).ConnectTo) = make([]Content, local246)
-		for local247 := range (*(*(struct {
+		}))(obj)).ConnectSides) = make([]string, local247)
+		for local248 := range (*(*(struct {
+			Param0 Content
+
+			Name   string
+			Groups []Group
+
+			P1Type   Param1Type
+			P2Type   Param2Type
+			DrawType DrawType
+
+			Mesh  string
+			Scale float32
+			//mt:const uint8(6)
+			Tiles        [6]TileDef
+			OverlayTiles [6]TileDef
+			//mt:const uint8(6)
+			SpecialTiles [6]TileDef
+
+			Color   color.NRGBA
+			Palette Texture
+
+			Waving       WaveType
+			ConnectSides []string
+			ConnectTo    []Content
+			InsideTint   color.NRGBA
+			Level        uint8 // Must be < 128.
+
+			Translucent bool // Sunlight is scattered and becomes normal light.
+			Transparent bool // Sunlight isn't scattered.
+			LightSrc    uint8
+
+			GndContent   bool
+			Collides     bool
+			PointType    PointabilityType
+			Diggable     bool
+			Climbable    bool
+			Replaceable  bool
+			OnRightClick bool
+
+			DmgPerSec int32
+
+			LiquidType   LiquidType
+			FlowingAlt   string
+			SrcAlt       string
+			Viscosity    uint8 // 0-7
+			LiqRenewable bool
+			FlowRange    uint8
+			DrownDmg     uint8
+			Floodable    bool
+
+			DrawBox, ColBox, SelBox NodeBox
+
+			FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+			LegacyFaceDir bool
+			LegacyMounted bool
+
+			DigPredict string
+
+			MaxLvl uint8
+
+			AlphaUse
+
+			MoveResistance    uint8
+			LiquidMovePhysics bool
+			InsideTintShaded  bool
+		}))(obj)).ConnectSides {
+			var local249 []uint8
+			var local250 uint16
+			{
+				p := &local250
+				*p = read16(r)
+			}
+			(local249) = make([]uint8, local250)
+			{
+				_, err := io.ReadFull(r, (local249)[:])
+				chk(err)
+			}
+			(((*(*(struct {
+				Param0 Content
+
+				Name   string
+				Groups []Group
+
+				P1Type   Param1Type
+				P2Type   Param2Type
+				DrawType DrawType
+
+				Mesh  string
+				Scale float32
+				//mt:const uint8(6)
+				Tiles        [6]TileDef
+				OverlayTiles [6]TileDef
+				//mt:const uint8(6)
+				SpecialTiles [6]TileDef
+
+				Color   color.NRGBA
+				Palette Texture
+
+				Waving       WaveType
+				ConnectSides []string
+				ConnectTo    []Content
+				InsideTint   color.NRGBA
+				Level        uint8 // Must be < 128.
+
+				Translucent bool // Sunlight is scattered and becomes normal light.
+				Transparent bool // Sunlight isn't scattered.
+				LightSrc    uint8
+
+				GndContent   bool
+				Collides     bool
+				PointType    PointabilityType
+				Diggable     bool
+				Climbable    bool
+				Replaceable  bool
+				OnRightClick bool
+
+				DmgPerSec int32
+
+				LiquidType   LiquidType
+				FlowingAlt   string
+				SrcAlt       string
+				Viscosity    uint8 // 0-7
+				LiqRenewable bool
+				FlowRange    uint8
+				DrownDmg     uint8
+				Floodable    bool
+
+				DrawBox, ColBox, SelBox NodeBox
+
+				FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+				LegacyFaceDir bool
+				LegacyMounted bool
+
+				DigPredict string
+
+				MaxLvl uint8
+
+				AlphaUse
+
+				MoveResistance    uint8
+				LiquidMovePhysics bool
+				InsideTintShaded  bool
+			}))(obj)).ConnectSides)[local248]) = string(local249)
+		}
+		var local251 uint16
+		{
+			p := &local251
+			*p = read16(r)
+		}
+		((*(*(struct {
+			Param0 Content
+
+			Name   string
+			Groups []Group
+
+			P1Type   Param1Type
+			P2Type   Param2Type
+			DrawType DrawType
+
+			Mesh  string
+			Scale float32
+			//mt:const uint8(6)
+			Tiles        [6]TileDef
+			OverlayTiles [6]TileDef
+			//mt:const uint8(6)
+			SpecialTiles [6]TileDef
+
+			Color   color.NRGBA
+			Palette Texture
+
+			Waving       WaveType
+			ConnectSides []string
+			ConnectTo    []Content
+			InsideTint   color.NRGBA
+			Level        uint8 // Must be < 128.
+
+			Translucent bool // Sunlight is scattered and becomes normal light.
+			Transparent bool // Sunlight isn't scattered.
+			LightSrc    uint8
+
+			GndContent   bool
+			Collides     bool
+			PointType    PointabilityType
+			Diggable     bool
+			Climbable    bool
+			Replaceable  bool
+			OnRightClick bool
+
+			DmgPerSec int32
+
+			LiquidType   LiquidType
+			FlowingAlt   string
+			SrcAlt       string
+			Viscosity    uint8 // 0-7
+			LiqRenewable bool
+			FlowRange    uint8
+			DrownDmg     uint8
+			Floodable    bool
+
+			DrawBox, ColBox, SelBox NodeBox
+
+			FootstepSnd, DiggingSnd, DugSnd SoundDef
+
+			LegacyFaceDir bool
+			LegacyMounted bool
+
+			DigPredict string
+
+			MaxLvl uint8
+
+			AlphaUse
+
+			MoveResistance    uint8
+			LiquidMovePhysics bool
+			InsideTintShaded  bool
+		}))(obj)).ConnectTo) = make([]Content, local251)
+		for local252 := range (*(*(struct {
 			Param0 Content
 
 			Name   string
@@ -24268,12 +24762,12 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 					MoveResistance    uint8
 					LiquidMovePhysics bool
 					InsideTintShaded  bool
-				}))(obj)).ConnectTo)[local247]).deserialize(r)
+				}))(obj)).ConnectTo)[local252]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 			}
 		}
 		{
@@ -24866,7 +25360,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PointabilityType", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -25318,17 +25812,17 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LiquidType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.LiquidType", err))
 		}
-		var local248 []uint8
-		var local249 uint16
+		var local253 []uint8
+		var local254 uint16
 		{
-			p := &local249
+			p := &local254
 			*p = read16(r)
 		}
-		(local248) = make([]uint8, local249)
+		(local253) = make([]uint8, local254)
 		{
-			_, err := io.ReadFull(r, (local248)[:])
+			_, err := io.ReadFull(r, (local253)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -25397,16 +25891,16 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			MoveResistance    uint8
 			LiquidMovePhysics bool
 			InsideTintShaded  bool
-		}))(obj)).FlowingAlt) = string(local248)
-		var local250 []uint8
-		var local251 uint16
+		}))(obj)).FlowingAlt) = string(local253)
+		var local255 []uint8
+		var local256 uint16
 		{
-			p := &local251
+			p := &local256
 			*p = read16(r)
 		}
-		(local250) = make([]uint8, local251)
+		(local255) = make([]uint8, local256)
 		{
-			_, err := io.ReadFull(r, (local250)[:])
+			_, err := io.ReadFull(r, (local255)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -25475,7 +25969,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			MoveResistance    uint8
 			LiquidMovePhysics bool
 			InsideTintShaded  bool
-		}))(obj)).SrcAlt) = string(local250)
+		}))(obj)).SrcAlt) = string(local255)
 		{
 			p := &(*(*(struct {
 				Param0 Content
@@ -25912,7 +26406,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -25986,7 +26480,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26060,7 +26554,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26134,7 +26628,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26208,7 +26702,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26282,7 +26776,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -26438,15 +26932,15 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				chk(fmt.Errorf("invalid bool: %d", n))
 			}
 		}
-		var local252 []uint8
-		var local253 uint16
+		var local257 []uint8
+		var local258 uint16
 		{
-			p := &local253
+			p := &local258
 			*p = read16(r)
 		}
-		(local252) = make([]uint8, local253)
+		(local257) = make([]uint8, local258)
 		{
-			_, err := io.ReadFull(r, (local252)[:])
+			_, err := io.ReadFull(r, (local257)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -26515,7 +27009,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			MoveResistance    uint8
 			LiquidMovePhysics bool
 			InsideTintShaded  bool
-		}))(obj)).DigPredict) = string(local252)
+		}))(obj)).DigPredict) = string(local257)
 		{
 			p := &(*(*(struct {
 				Param0 Content
@@ -26658,7 +27152,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlphaUse", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AlphaUse", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -26891,46 +27385,46 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 }
 
 func (obj *PointedNode) serialize(w io.Writer) {
-	for local254 := range (*(*(struct {
+	for local259 := range (*(*(struct {
 		Under, Above [3]int16
 	}))(obj)).Under {
 		{
 			x := ((*(*(struct {
 				Under, Above [3]int16
-			}))(obj)).Under)[local254]
+			}))(obj)).Under)[local259]
 			write16(w, uint16(x))
 		}
 	}
-	for local255 := range (*(*(struct {
+	for local260 := range (*(*(struct {
 		Under, Above [3]int16
 	}))(obj)).Above {
 		{
 			x := ((*(*(struct {
 				Under, Above [3]int16
-			}))(obj)).Above)[local255]
+			}))(obj)).Above)[local260]
 			write16(w, uint16(x))
 		}
 	}
 }
 
 func (obj *PointedNode) deserialize(r io.Reader) {
-	for local256 := range (*(*(struct {
+	for local261 := range (*(*(struct {
 		Under, Above [3]int16
 	}))(obj)).Under {
 		{
 			p := &((*(*(struct {
 				Under, Above [3]int16
-			}))(obj)).Under)[local256]
+			}))(obj)).Under)[local261]
 			*p = int16(read16(r))
 		}
 	}
-	for local257 := range (*(*(struct {
+	for local262 := range (*(*(struct {
 		Under, Above [3]int16
 	}))(obj)).Above {
 		{
 			p := &((*(*(struct {
 				Under, Above [3]int16
-			}))(obj)).Above)[local257]
+			}))(obj)).Above)[local262]
 			*p = int16(read16(r))
 		}
 	}
@@ -26945,7 +27439,7 @@ func (obj *PointedAO) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 }
 
@@ -26958,7 +27452,7 @@ func (obj *PointedAO) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 }
 
@@ -26977,7 +27471,7 @@ func (obj *CompressionModes) deserialize(r io.Reader) {
 }
 
 func (obj *PlayerPos) serialize(w io.Writer) {
-	for local258 := range (*(*(struct {
+	for local263 := range (*(*(struct {
 		Pos100, Vel100   [3]int32
 		Pitch100, Yaw100 int32
 		Keys             Keys
@@ -26997,11 +27491,11 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 				Flags            PlayerPosFlags
 				Speed            float32
 				Dir              float32
-			}))(obj)).Pos100)[local258]
+			}))(obj)).Pos100)[local263]
 			write32(w, uint32(x))
 		}
 	}
-	for local259 := range (*(*(struct {
+	for local264 := range (*(*(struct {
 		Pos100, Vel100   [3]int32
 		Pitch100, Yaw100 int32
 		Keys             Keys
@@ -27021,7 +27515,7 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 				Flags            PlayerPosFlags
 				Speed            float32
 				Dir              float32
-			}))(obj)).Vel100)[local259]
+			}))(obj)).Vel100)[local264]
 			write32(w, uint32(x))
 		}
 	}
@@ -27066,7 +27560,7 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Keys", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Keys", err))
 	}
 	{
 		x := (*(*(struct {
@@ -27109,7 +27603,7 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPosFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerPosFlags", err))
 	}
 	{
 		x := (*(*(struct {
@@ -27140,7 +27634,7 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 }
 
 func (obj *PlayerPos) deserialize(r io.Reader) {
-	for local260 := range (*(*(struct {
+	for local265 := range (*(*(struct {
 		Pos100, Vel100   [3]int32
 		Pitch100, Yaw100 int32
 		Keys             Keys
@@ -27160,11 +27654,11 @@ func (obj *PlayerPos) deserialize(r io.Reader) {
 				Flags            PlayerPosFlags
 				Speed            float32
 				Dir              float32
-			}))(obj)).Pos100)[local260]
+			}))(obj)).Pos100)[local265]
 			*p = int32(read32(r))
 		}
 	}
-	for local261 := range (*(*(struct {
+	for local266 := range (*(*(struct {
 		Pos100, Vel100   [3]int32
 		Pitch100, Yaw100 int32
 		Keys             Keys
@@ -27184,7 +27678,7 @@ func (obj *PlayerPos) deserialize(r io.Reader) {
 				Flags            PlayerPosFlags
 				Speed            float32
 				Dir              float32
-			}))(obj)).Vel100)[local261]
+			}))(obj)).Vel100)[local266]
 			*p = int32(read32(r))
 		}
 	}
@@ -27229,7 +27723,7 @@ func (obj *PlayerPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Keys", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Keys", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -27272,7 +27766,7 @@ func (obj *PlayerPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPosFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PlayerPosFlags", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -27386,15 +27880,15 @@ func (obj *Field) serialize(w io.Writer) {
 }
 
 func (obj *Field) deserialize(r io.Reader) {
-	var local262 []uint8
-	var local263 uint16
+	var local267 []uint8
+	var local268 uint16
 	{
-		p := &local263
+		p := &local268
 		*p = read16(r)
 	}
-	(local262) = make([]uint8, local263)
+	(local267) = make([]uint8, local268)
 	{
-		_, err := io.ReadFull(r, (local262)[:])
+		_, err := io.ReadFull(r, (local267)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -27402,16 +27896,16 @@ func (obj *Field) deserialize(r io.Reader) {
 
 		//mt:len32
 		Value string
-	}))(obj)).Name) = string(local262)
-	var local264 []uint8
-	var local265 uint32
+	}))(obj)).Name) = string(local267)
+	var local269 []uint8
+	var local270 uint32
 	{
-		p := &local265
+		p := &local270
 		*p = read32(r)
 	}
-	(local264) = make([]uint8, local265)
+	(local269) = make([]uint8, local270)
 	{
-		_, err := io.ReadFull(r, (local264)[:])
+		_, err := io.ReadFull(r, (local269)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -27419,7 +27913,7 @@ func (obj *Field) deserialize(r io.Reader) {
 
 		//mt:len32
 		Value string
-	}))(obj)).Value) = string(local264)
+	}))(obj)).Value) = string(local269)
 }
 
 func (obj *AuthMethods) serialize(w io.Writer) {
@@ -27443,7 +27937,7 @@ func (obj *Pos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 }
 
@@ -27454,7 +27948,7 @@ func (obj *Pos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 }
 
@@ -27488,7 +27982,7 @@ func (obj *MapBlk) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlkFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.MapBlkFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -27505,23 +27999,23 @@ func (obj *MapBlk) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LitFromBlks", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.LitFromBlks", err))
 	}
 	{
-		local266 := uint8(2) // Size of param0 in bytes.
+		local271 := uint8(2) // Size of param0 in bytes.
 		{
-			x := local266
+			x := local271
 			write8(w, uint8(x))
 		}
 	}
 	{
-		local267 := uint8(1 + 1) // Size of param1 and param2 combined, in bytes.
+		local272 := uint8(1 + 1) // Size of param1 and param2 combined, in bytes.
 		{
-			x := local267
+			x := local272
 			write8(w, uint8(x))
 		}
 	}
-	for local268 := range (*(*(struct {
+	for local273 := range (*(*(struct {
 		Flags   MapBlkFlags
 		LitFrom LitFromBlks
 
@@ -27541,12 +28035,12 @@ func (obj *MapBlk) serialize(w io.Writer) {
 				Param2 [4096]uint8
 
 				NodeMetas map[uint16]*NodeMeta
-			}))(obj)).Param0)[local268]).serialize(w)
+			}))(obj)).Param0)[local273]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 		}
 	}
 	{
@@ -27637,7 +28131,7 @@ func (obj *MapBlk) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlkFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.MapBlkFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -27654,31 +28148,31 @@ func (obj *MapBlk) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LitFromBlks", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.LitFromBlks", err))
 	}
 	{
-		var local269 uint8
-		local270 := uint8(2) // Size of param0 in bytes.
+		var local274 uint8
+		local275 := uint8(2) // Size of param0 in bytes.
 		{
-			p := &local269
+			p := &local274
 			*p = read8(r)
 		}
-		if local269 != local270 {
-			chk(fmt.Errorf("const %v: %v", "uint8(2)     // Size of param0 in bytes.", local269))
+		if local274 != local275 {
+			chk(fmt.Errorf("const %v: %v", "uint8(2)     // Size of param0 in bytes.", local274))
 		}
 	}
 	{
-		var local271 uint8
-		local272 := uint8(1 + 1) // Size of param1 and param2 combined, in bytes.
+		var local276 uint8
+		local277 := uint8(1 + 1) // Size of param1 and param2 combined, in bytes.
 		{
-			p := &local271
+			p := &local276
 			*p = read8(r)
 		}
-		if local271 != local272 {
-			chk(fmt.Errorf("const %v: %v", "uint8(1 + 1) // Size of param1 and param2 combined, in bytes.", local271))
+		if local276 != local277 {
+			chk(fmt.Errorf("const %v: %v", "uint8(1 + 1) // Size of param1 and param2 combined, in bytes.", local276))
 		}
 	}
-	for local273 := range (*(*(struct {
+	for local278 := range (*(*(struct {
 		Flags   MapBlkFlags
 		LitFrom LitFromBlks
 
@@ -27698,12 +28192,12 @@ func (obj *MapBlk) deserialize(r io.Reader) {
 				Param2 [4096]uint8
 
 				NodeMetas map[uint16]*NodeMeta
-			}))(obj)).Param0)[local273]).deserialize(r)
+			}))(obj)).Param0)[local278]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 		}
 	}
 	{
@@ -27773,7 +28267,7 @@ func (obj *Node) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		x := (*(*(struct {
@@ -27801,7 +28295,7 @@ func (obj *Node) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -27834,18 +28328,18 @@ func (obj *CSMRestrictionFlags) deserialize(r io.Reader) {
 }
 
 func (obj *Vec) serialize(w io.Writer) {
-	for local274 := range *(*([3]float32))(obj) {
+	for local279 := range *(*([3]float32))(obj) {
 		{
-			x := (*(*([3]float32))(obj))[local274]
+			x := (*(*([3]float32))(obj))[local279]
 			write32(w, math.Float32bits(x))
 		}
 	}
 }
 
 func (obj *Vec) deserialize(r io.Reader) {
-	for local275 := range *(*([3]float32))(obj) {
+	for local280 := range *(*([3]float32))(obj) {
 		{
-			p := &(*(*([3]float32))(obj))[local275]
+			p := &(*(*([3]float32))(obj))[local280]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -27891,17 +28385,17 @@ func (obj *AOAdd) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
-		local276 := genericCAO
+		local281 := genericCAO
 		if err := pcall(func() {
-			(local276).serialize(w)
+			(local281).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.aoType", err))
 		}
 	}
 	{
@@ -27918,7 +28412,7 @@ func (obj *AOAdd) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOInitData", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOInitData", err))
 		}
 		{
 			buf := w
@@ -27950,21 +28444,21 @@ func (obj *AOAdd) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
-		var local277 aoType
-		local278 := genericCAO
+		var local282 aoType
+		local283 := genericCAO
 		if err := pcall(func() {
-			(local277).deserialize(r)
+			(local282).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.aoType", err))
 		}
-		if local277 != local278 {
-			chk(fmt.Errorf("const %v: %v", "genericCAO", local277))
+		if local282 != local283 {
+			chk(fmt.Errorf("const %v: %v", "genericCAO", local282))
 		}
 	}
 	{
@@ -27985,7 +28479,7 @@ func (obj *AOAdd) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOInitData", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOInitData", err))
 		}
 		if r.N > 0 {
 			chk(fmt.Errorf("%d bytes of trailing data", r.N))
@@ -28004,7 +28498,7 @@ func (obj *IDAOMsg) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
 		ow := w
@@ -28046,7 +28540,7 @@ func (obj *IDAOMsg) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	{
 		var n uint16
@@ -28078,9 +28572,9 @@ func (obj *ItemDef) serialize(w io.Writer) {
 		ow := w
 		w := new(bytes.Buffer)
 		{
-			local279 := uint8(6)
+			local284 := uint8(6)
 			{
-				x := local279
+				x := local284
 				write8(w, uint8(x))
 			}
 		}
@@ -28140,7 +28634,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ItemType", err))
 		}
 		if len(([]byte((*(*(struct {
 			Type ItemType
@@ -28520,7 +29014,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -28578,9 +29072,9 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
-		for local280 := range (*(*(struct {
+		for local285 := range (*(*(struct {
 			Type ItemType
 
 			Name, Desc string
@@ -28682,7 +29176,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 					//mt:if %s.HasWearBarParams
 					WearBarParams WearBarParams
-				}))(obj)).WieldScale)[local280]
+				}))(obj)).WieldScale)[local285]
 				write32(w, math.Float32bits(x))
 			}
 		}
@@ -28912,7 +29406,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolCaps", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ToolCaps", err))
 		}
 		if len(((*(*(struct {
 			Type ItemType
@@ -29021,7 +29515,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			}))(obj)).Groups)))
 			write16(w, uint16(x))
 		}
-		for local281 := range (*(*(struct {
+		for local286 := range (*(*(struct {
 			Type ItemType
 
 			Name, Desc string
@@ -29123,12 +29617,12 @@ func (obj *ItemDef) serialize(w io.Writer) {
 
 					//mt:if %s.HasWearBarParams
 					WearBarParams WearBarParams
-				}))(obj)).Groups)[local281]).serialize(w)
+				}))(obj)).Groups)[local286]).serialize(w)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 			}
 		}
 		if len(([]byte((*(*(struct {
@@ -29348,7 +29842,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -29406,7 +29900,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		{
 			x := (*(*(struct {
@@ -29518,7 +30012,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 		{
 			x := (*(*(struct {
@@ -29630,7 +30124,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -29688,7 +30182,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
 		if len(([]byte((*(*(struct {
 			Type ItemType
@@ -29907,7 +30401,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -29965,7 +30459,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		{
 			x := (*(*(struct {
@@ -30245,7 +30739,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteraction", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteraction", err))
 		}
 		if len(([]byte((*(*(struct {
 			Type ItemType
@@ -30573,7 +31067,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WearBarParams", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.WearBarParams", err))
 			}
 		}
 		{
@@ -30603,14 +31097,14 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 		}
 		r := &io.LimitedReader{R: r, N: int64(n)}
 		{
-			var local282 uint8
-			local283 := uint8(6)
+			var local287 uint8
+			local288 := uint8(6)
 			{
-				p := &local282
+				p := &local287
 				*p = read8(r)
 			}
-			if local282 != local283 {
-				chk(fmt.Errorf("const %v: %v", "uint8(6)", local282))
+			if local287 != local288 {
+				chk(fmt.Errorf("const %v: %v", "uint8(6)", local287))
 			}
 		}
 		if err := pcall(func() {
@@ -30669,17 +31163,17 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ItemType", err))
 		}
-		var local284 []uint8
-		var local285 uint16
+		var local289 []uint8
+		var local290 uint16
 		{
-			p := &local285
+			p := &local290
 			*p = read16(r)
 		}
-		(local284) = make([]uint8, local285)
+		(local289) = make([]uint8, local290)
 		{
-			_, err := io.ReadFull(r, (local284)[:])
+			_, err := io.ReadFull(r, (local289)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -30732,16 +31226,16 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			//mt:if %s.HasWearBarParams
 			WearBarParams WearBarParams
-		}))(obj)).Name) = string(local284)
-		var local286 []uint8
-		var local287 uint16
+		}))(obj)).Name) = string(local289)
+		var local291 []uint8
+		var local292 uint16
 		{
-			p := &local287
+			p := &local292
 			*p = read16(r)
 		}
-		(local286) = make([]uint8, local287)
+		(local291) = make([]uint8, local292)
 		{
-			_, err := io.ReadFull(r, (local286)[:])
+			_, err := io.ReadFull(r, (local291)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -30794,7 +31288,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			//mt:if %s.HasWearBarParams
 			WearBarParams WearBarParams
-		}))(obj)).Desc) = string(local286)
+		}))(obj)).Desc) = string(local291)
 		if err := pcall(func() {
 			((*(*(struct {
 				Type ItemType
@@ -30851,7 +31345,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -30909,9 +31403,9 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
-		for local288 := range (*(*(struct {
+		for local293 := range (*(*(struct {
 			Type ItemType
 
 			Name, Desc string
@@ -31013,7 +31507,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 					//mt:if %s.HasWearBarParams
 					WearBarParams WearBarParams
-				}))(obj)).WieldScale)[local288]
+				}))(obj)).WieldScale)[local293]
 				*p = math.Float32frombits(read32(r))
 			}
 		}
@@ -31249,11 +31743,11 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolCaps", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ToolCaps", err))
 		}
-		var local289 uint16
+		var local294 uint16
 		{
-			p := &local289
+			p := &local294
 			*p = read16(r)
 		}
 		((*(*(struct {
@@ -31306,8 +31800,8 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			//mt:if %s.HasWearBarParams
 			WearBarParams WearBarParams
-		}))(obj)).Groups) = make([]Group, local289)
-		for local290 := range (*(*(struct {
+		}))(obj)).Groups) = make([]Group, local294)
+		for local295 := range (*(*(struct {
 			Type ItemType
 
 			Name, Desc string
@@ -31409,23 +31903,23 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 					//mt:if %s.HasWearBarParams
 					WearBarParams WearBarParams
-				}))(obj)).Groups)[local290]).deserialize(r)
+				}))(obj)).Groups)[local295]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 			}
 		}
-		var local291 []uint8
-		var local292 uint16
+		var local296 []uint8
+		var local297 uint16
 		{
-			p := &local292
+			p := &local297
 			*p = read16(r)
 		}
-		(local291) = make([]uint8, local292)
+		(local296) = make([]uint8, local297)
 		{
-			_, err := io.ReadFull(r, (local291)[:])
+			_, err := io.ReadFull(r, (local296)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -31478,7 +31972,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			//mt:if %s.HasWearBarParams
 			WearBarParams WearBarParams
-		}))(obj)).PlacePredict) = string(local291)
+		}))(obj)).PlacePredict) = string(local296)
 		if err := pcall(func() {
 			((*(*(struct {
 				Type ItemType
@@ -31535,7 +32029,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -31593,7 +32087,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -31705,7 +32199,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -31817,7 +32311,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -31875,17 +32369,17 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimTexture", err))
 		}
-		var local293 []uint8
-		var local294 uint16
+		var local298 []uint8
+		var local299 uint16
 		{
-			p := &local294
+			p := &local299
 			*p = read16(r)
 		}
-		(local293) = make([]uint8, local294)
+		(local298) = make([]uint8, local299)
 		{
-			_, err := io.ReadFull(r, (local293)[:])
+			_, err := io.ReadFull(r, (local298)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -31938,7 +32432,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			//mt:if %s.HasWearBarParams
 			WearBarParams WearBarParams
-		}))(obj)).ShortDesc) = string(local293)
+		}))(obj)).ShortDesc) = string(local298)
 		if err := pcall(func() {
 			((*(*(struct {
 				Type ItemType
@@ -31995,7 +32489,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -32053,7 +32547,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.SoundDef", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -32339,17 +32833,17 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteraction", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteraction", err))
 		}
-		var local295 []uint8
-		var local296 uint16
+		var local300 []uint8
+		var local301 uint16
 		{
-			p := &local296
+			p := &local301
 			*p = read16(r)
 		}
-		(local295) = make([]uint8, local296)
+		(local300) = make([]uint8, local301)
 		{
-			_, err := io.ReadFull(r, (local295)[:])
+			_, err := io.ReadFull(r, (local300)[:])
 			chk(err)
 		}
 		((*(*(struct {
@@ -32402,7 +32896,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 
 			//mt:if %s.HasWearBarParams
 			WearBarParams WearBarParams
-		}))(obj)).Pointabilities) = string(local295)
+		}))(obj)).Pointabilities) = string(local300)
 		{
 			p := &(*(*(struct {
 				Type ItemType
@@ -32571,7 +33065,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WearBarParams", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.WearBarParams", err))
 			}
 		}
 		if r.N > 0 {
@@ -32595,7 +33089,7 @@ func (obj *SoundSrcType) deserialize(r io.Reader) {
 }
 
 func (obj *ParticleParams) serialize(w io.Writer) {
-	for local297 := range (*(*(struct {
+	for local302 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -32639,11 +33133,11 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Pos)[local297]
+			}))(obj)).Pos)[local302]
 			write32(w, math.Float32bits(x))
 		}
 	}
-	for local298 := range (*(*(struct {
+	for local303 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -32687,11 +33181,11 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Vel)[local298]
+			}))(obj)).Vel)[local303]
 			write32(w, math.Float32bits(x))
 		}
 	}
-	for local299 := range (*(*(struct {
+	for local304 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -32735,7 +33229,7 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Acc)[local299]
+			}))(obj)).Acc)[local304]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -32977,7 +33471,7 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 	{
 		x := (*(*(struct {
@@ -33060,7 +33554,7 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		x := (*(*(struct {
@@ -33112,7 +33606,7 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 		}))(obj)).NodeTile
 		write8(w, uint8(x))
 	}
-	for local300 := range (*(*(struct {
+	for local305 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -33156,7 +33650,7 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Drag)[local300]
+			}))(obj)).Drag)[local305]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -33187,7 +33681,7 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33216,7 +33710,7 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33245,12 +33739,12 @@ func (obj *ParticleParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTexture", err))
 	}
 }
 
 func (obj *ParticleParams) deserialize(r io.Reader) {
-	for local301 := range (*(*(struct {
+	for local306 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -33294,11 +33788,11 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Pos)[local301]
+			}))(obj)).Pos)[local306]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	for local302 := range (*(*(struct {
+	for local307 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -33342,11 +33836,11 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Vel)[local302]
+			}))(obj)).Vel)[local307]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	for local303 := range (*(*(struct {
+	for local308 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -33390,7 +33884,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Acc)[local303]
+			}))(obj)).Acc)[local308]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -33476,15 +33970,15 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 			chk(fmt.Errorf("invalid bool: %d", n))
 		}
 	}
-	var local304 []uint8
-	var local305 uint32
+	var local309 []uint8
+	var local310 uint32
 	{
-		p := &local305
+		p := &local310
 		*p = read32(r)
 	}
-	(local304) = make([]uint8, local305)
+	(local309) = make([]uint8, local310)
 	{
-		_, err := io.ReadFull(r, (local304)[:])
+		_, err := io.ReadFull(r, (local309)[:])
 		chk(err)
 	}
 	(*(*string)(&((*(*(struct {
@@ -33508,7 +34002,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 		Jitter      RangeV3F32
 		Bounce      RangeF32
 		Texture     ParticleTexture
-	}))(obj)).TextureName))) = string(local304)
+	}))(obj)).TextureName))) = string(local309)
 	{
 		p := &(*(*(struct {
 			Pos, Vel, Acc  [3]float32
@@ -33600,7 +34094,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -33686,7 +34180,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -33738,7 +34232,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 		}))(obj)).NodeTile
 		*p = read8(r)
 	}
-	for local306 := range (*(*(struct {
+	for local311 := range (*(*(struct {
 		Pos, Vel, Acc  [3]float32
 		ExpirationTime float32 // in seconds.
 		Size           float32
@@ -33782,7 +34276,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 				Jitter      RangeV3F32
 				Bounce      RangeF32
 				Texture     ParticleTexture
-			}))(obj)).Drag)[local306]
+			}))(obj)).Drag)[local311]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -33813,7 +34307,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33842,7 +34336,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33871,7 +34365,7 @@ func (obj *ParticleParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTexture", err))
 	}
 }
 
@@ -33887,7 +34381,7 @@ func (obj *TweenRangeV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -33918,7 +34412,7 @@ func (obj *TweenRangeV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33931,7 +34425,7 @@ func (obj *TweenRangeV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeV3F32", err))
 	}
 }
 
@@ -33947,7 +34441,7 @@ func (obj *TweenRangeV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -33978,7 +34472,7 @@ func (obj *TweenRangeV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33991,7 +34485,7 @@ func (obj *TweenRangeV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeV3F32", err))
 	}
 }
 
@@ -34007,7 +34501,7 @@ func (obj *TweenRangeF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -34038,7 +34532,7 @@ func (obj *TweenRangeF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -34051,7 +34545,7 @@ func (obj *TweenRangeF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeF32", err))
 	}
 }
 
@@ -34067,7 +34561,7 @@ func (obj *TweenRangeF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -34098,7 +34592,7 @@ func (obj *TweenRangeF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -34111,7 +34605,7 @@ func (obj *TweenRangeF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.RangeF32", err))
 	}
 }
 
@@ -34148,7 +34642,7 @@ func (obj *TileAnim) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimType", err))
 	}
 	if !((*(*(struct {
 		Type AnimType
@@ -34208,7 +34702,7 @@ func (obj *TileAnim) serialize(w io.Writer) {
 		Duration float32 // in seconds
 
 	}))(obj)).Type == VerticalFrameAnim {
-		for local307 := range (*(*(struct {
+		for local312 := range (*(*(struct {
 			Type AnimType
 
 			//mt:if %s.Type == SpriteSheetAnim
@@ -34234,7 +34728,7 @@ func (obj *TileAnim) serialize(w io.Writer) {
 					//mt:if %s.Type != NoAnim
 					Duration float32 // in seconds
 
-				}))(obj)).NFrames)[local307]
+				}))(obj)).NFrames)[local312]
 				write16(w, uint16(x))
 			}
 		}
@@ -34290,7 +34784,7 @@ func (obj *TileAnim) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AnimType", err))
 	}
 	if !((*(*(struct {
 		Type AnimType
@@ -34350,7 +34844,7 @@ func (obj *TileAnim) deserialize(r io.Reader) {
 		Duration float32 // in seconds
 
 	}))(obj)).Type == VerticalFrameAnim {
-		for local308 := range (*(*(struct {
+		for local313 := range (*(*(struct {
 			Type AnimType
 
 			//mt:if %s.Type == SpriteSheetAnim
@@ -34376,7 +34870,7 @@ func (obj *TileAnim) deserialize(r io.Reader) {
 					//mt:if %s.Type != NoAnim
 					Duration float32 // in seconds
 
-				}))(obj)).NFrames)[local308]
+				}))(obj)).NFrames)[local313]
 				*p = read16(r)
 			}
 		}
@@ -34441,7 +34935,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTextureFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTextureFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -34456,7 +34950,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -34471,7 +34965,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV2F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenV2F32", err))
 	}
 	if (*(*(struct {
 		Flags ParticleTextureFlags
@@ -34494,7 +34988,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 		}
 	}
 }
@@ -34513,7 +35007,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTextureFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ParticleTextureFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -34528,7 +35022,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -34543,7 +35037,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV2F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenV2F32", err))
 	}
 	if (*(*(struct {
 		Flags ParticleTextureFlags
@@ -34566,7 +35060,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 		}
 	}
 }
@@ -34597,7 +35091,7 @@ func (obj *TweenV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -34617,7 +35111,7 @@ func (obj *TweenV3F32) serialize(w io.Writer) {
 		}))(obj)).Beginning
 		write32(w, math.Float32bits(x))
 	}
-	for local309 := range (*(*(struct {
+	for local314 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -34629,11 +35123,11 @@ func (obj *TweenV3F32) serialize(w io.Writer) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [3]float32
-			}))(obj)).Start)[local309]
+			}))(obj)).Start)[local314]
 			write32(w, math.Float32bits(x))
 		}
 	}
-	for local310 := range (*(*(struct {
+	for local315 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -34645,7 +35139,7 @@ func (obj *TweenV3F32) serialize(w io.Writer) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [3]float32
-			}))(obj)).End)[local310]
+			}))(obj)).End)[local315]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -34663,7 +35157,7 @@ func (obj *TweenV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -34683,7 +35177,7 @@ func (obj *TweenV3F32) deserialize(r io.Reader) {
 		}))(obj)).Beginning
 		*p = math.Float32frombits(read32(r))
 	}
-	for local311 := range (*(*(struct {
+	for local316 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -34695,11 +35189,11 @@ func (obj *TweenV3F32) deserialize(r io.Reader) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [3]float32
-			}))(obj)).Start)[local311]
+			}))(obj)).Start)[local316]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	for local312 := range (*(*(struct {
+	for local317 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -34711,7 +35205,7 @@ func (obj *TweenV3F32) deserialize(r io.Reader) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [3]float32
-			}))(obj)).End)[local312]
+			}))(obj)).End)[local317]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -34783,9 +35277,9 @@ func (obj *HUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDType", err))
 	}
-	for local313 := range (*(*(struct {
+	for local318 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -34821,7 +35315,7 @@ func (obj *HUD) serialize(w io.Writer) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Pos)[local313]
+			}))(obj)).Pos)[local318]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -34887,7 +35381,7 @@ func (obj *HUD) serialize(w io.Writer) {
 		}))(obj)).Name))[:])
 		chk(err)
 	}
-	for local314 := range (*(*(struct {
+	for local319 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -34923,7 +35417,7 @@ func (obj *HUD) serialize(w io.Writer) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Scale)[local314]
+			}))(obj)).Scale)[local319]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -35052,7 +35546,7 @@ func (obj *HUD) serialize(w io.Writer) {
 		}))(obj)).Dir
 		write32(w, uint32(x))
 	}
-	for local315 := range (*(*(struct {
+	for local320 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35088,11 +35582,11 @@ func (obj *HUD) serialize(w io.Writer) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Align)[local315]
+			}))(obj)).Align)[local320]
 			write32(w, math.Float32bits(x))
 		}
 	}
-	for local316 := range (*(*(struct {
+	for local321 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35128,7 +35622,7 @@ func (obj *HUD) serialize(w io.Writer) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Offset)[local316]
+			}))(obj)).Offset)[local321]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -35155,9 +35649,9 @@ func (obj *HUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
-	for local317 := range (*(*(struct {
+	for local322 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35193,7 +35687,7 @@ func (obj *HUD) serialize(w io.Writer) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Size)[local317]
+			}))(obj)).Size)[local322]
 			write32(w, uint32(x))
 		}
 	}
@@ -35303,7 +35797,7 @@ func (obj *HUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDStyleFlags", err))
 	}
 }
 
@@ -35331,9 +35825,9 @@ func (obj *HUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDType", err))
 	}
-	for local318 := range (*(*(struct {
+	for local323 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35369,19 +35863,19 @@ func (obj *HUD) deserialize(r io.Reader) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Pos)[local318]
+			}))(obj)).Pos)[local323]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	var local319 []uint8
-	var local320 uint16
+	var local324 []uint8
+	var local325 uint16
 	{
-		p := &local320
+		p := &local325
 		*p = read16(r)
 	}
-	(local319) = make([]uint8, local320)
+	(local324) = make([]uint8, local325)
 	{
-		_, err := io.ReadFull(r, (local319)[:])
+		_, err := io.ReadFull(r, (local324)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -35401,8 +35895,8 @@ func (obj *HUD) deserialize(r io.Reader) {
 		ZIndex   int16
 		Text2    string
 		Style    HUDStyleFlags
-	}))(obj)).Name) = string(local319)
-	for local321 := range (*(*(struct {
+	}))(obj)).Name) = string(local324)
+	for local326 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35438,19 +35932,19 @@ func (obj *HUD) deserialize(r io.Reader) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Scale)[local321]
+			}))(obj)).Scale)[local326]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	var local322 []uint8
-	var local323 uint16
+	var local327 []uint8
+	var local328 uint16
 	{
-		p := &local323
+		p := &local328
 		*p = read16(r)
 	}
-	(local322) = make([]uint8, local323)
+	(local327) = make([]uint8, local328)
 	{
-		_, err := io.ReadFull(r, (local322)[:])
+		_, err := io.ReadFull(r, (local327)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -35470,7 +35964,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 		ZIndex   int16
 		Text2    string
 		Style    HUDStyleFlags
-	}))(obj)).Text) = string(local322)
+	}))(obj)).Text) = string(local327)
 	{
 		p := &(*(*(struct {
 			Type HUDType
@@ -35534,7 +36028,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 		}))(obj)).Dir
 		*p = read32(r)
 	}
-	for local324 := range (*(*(struct {
+	for local329 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35570,11 +36064,11 @@ func (obj *HUD) deserialize(r io.Reader) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Align)[local324]
+			}))(obj)).Align)[local329]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	for local325 := range (*(*(struct {
+	for local330 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35610,7 +36104,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Offset)[local325]
+			}))(obj)).Offset)[local330]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -35637,9 +36131,9 @@ func (obj *HUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
-	for local326 := range (*(*(struct {
+	for local331 := range (*(*(struct {
 		Type HUDType
 
 		Pos      [2]float32
@@ -35675,7 +36169,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 				ZIndex   int16
 				Text2    string
 				Style    HUDStyleFlags
-			}))(obj)).Size)[local326]
+			}))(obj)).Size)[local331]
 			*p = int32(read32(r))
 		}
 	}
@@ -35700,15 +36194,15 @@ func (obj *HUD) deserialize(r io.Reader) {
 		}))(obj)).ZIndex
 		*p = int16(read16(r))
 	}
-	var local327 []uint8
-	var local328 uint16
+	var local332 []uint8
+	var local333 uint16
 	{
-		p := &local328
+		p := &local333
 		*p = read16(r)
 	}
-	(local327) = make([]uint8, local328)
+	(local332) = make([]uint8, local333)
 	{
-		_, err := io.ReadFull(r, (local327)[:])
+		_, err := io.ReadFull(r, (local332)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -35728,7 +36222,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 		ZIndex   int16
 		Text2    string
 		Style    HUDStyleFlags
-	}))(obj)).Text2) = string(local327)
+	}))(obj)).Text2) = string(local332)
 	if err := pcall(func() {
 		((*(*(struct {
 			Type HUDType
@@ -35752,7 +36246,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.HUDStyleFlags", err))
 	}
 }
 
@@ -35827,18 +36321,18 @@ func (obj *Texture) serialize(w io.Writer) {
 }
 
 func (obj *Texture) deserialize(r io.Reader) {
-	var local329 []uint8
-	var local330 uint16
+	var local334 []uint8
+	var local335 uint16
 	{
-		p := &local330
+		p := &local335
 		*p = read16(r)
 	}
-	(local329) = make([]uint8, local330)
+	(local334) = make([]uint8, local335)
 	{
-		_, err := io.ReadFull(r, (local329)[:])
+		_, err := io.ReadFull(r, (local334)[:])
 		chk(err)
 	}
-	(*(*(string))(obj)) = string(local329)
+	(*(*(string))(obj)) = string(local334)
 }
 
 func (obj *PlayerListUpdateType) serialize(w io.Writer) {
@@ -35871,9 +36365,9 @@ func (obj *ModChanSig) deserialize(r io.Reader) {
 
 func (obj *AOProps) serialize(w io.Writer) {
 	{
-		local331 := uint8(4)
+		local336 := uint8(4)
 		{
-			x := local331
+			x := local336
 			write8(w, uint8(x))
 		}
 	}
@@ -36063,7 +36557,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -36112,7 +36606,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -36161,7 +36655,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PointabilityType", err))
 	}
 	if len(([]byte((*(*(struct {
 		MaxHP            uint16 // Player only.
@@ -36297,7 +36791,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		}))(obj)).Visual))[:])
 		chk(err)
 	}
-	for local332 := range (*(*(struct {
+	for local337 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -36381,7 +36875,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).VisualSize)[local332]
+			}))(obj)).VisualSize)[local337]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -36474,7 +36968,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		}))(obj)).Textures)))
 		write16(w, uint16(x))
 	}
-	for local333 := range (*(*(struct {
+	for local338 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -36558,15 +37052,15 @@ func (obj *AOProps) serialize(w io.Writer) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).Textures)[local333]).serialize(w)
+			}))(obj)).Textures)[local338]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 	}
-	for local334 := range (*(*(struct {
+	for local339 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -36650,11 +37144,11 @@ func (obj *AOProps) serialize(w io.Writer) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).SpriteSheetSize)[local334]
+			}))(obj)).SpriteSheetSize)[local339]
 			write16(w, uint16(x))
 		}
 	}
-	for local335 := range (*(*(struct {
+	for local340 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -36738,7 +37232,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).SpritePos)[local335]
+			}))(obj)).SpritePos)[local340]
 			write16(w, uint16(x))
 		}
 	}
@@ -37108,7 +37602,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		}))(obj)).Colors)))
 		write16(w, uint16(x))
 	}
-	for local336 := range (*(*(struct {
+	for local341 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -37192,7 +37686,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).Colors)[local336]
+			}))(obj)).Colors)[local341]
 			w.Write([]byte{x.A, x.R, x.G, x.B})
 		}
 	}
@@ -38201,7 +38695,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -38442,7 +38936,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		x := (*(*(struct {
@@ -38628,14 +39122,14 @@ func (obj *AOProps) serialize(w io.Writer) {
 
 func (obj *AOProps) deserialize(r io.Reader) {
 	{
-		var local337 uint8
-		local338 := uint8(4)
+		var local342 uint8
+		local343 := uint8(4)
 		{
-			p := &local337
+			p := &local342
 			*p = read8(r)
 		}
-		if local337 != local338 {
-			chk(fmt.Errorf("const %v: %v", "uint8(4)", local337))
+		if local342 != local343 {
+			chk(fmt.Errorf("const %v: %v", "uint8(4)", local342))
 		}
 	}
 	{
@@ -38827,7 +39321,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -38876,7 +39370,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -38925,17 +39419,17 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.PointabilityType", err))
 	}
-	var local339 []uint8
-	var local340 uint16
+	var local344 []uint8
+	var local345 uint16
 	{
-		p := &local340
+		p := &local345
 		*p = read16(r)
 	}
-	(local339) = make([]uint8, local340)
+	(local344) = make([]uint8, local345)
 	{
-		_, err := io.ReadFull(r, (local339)[:])
+		_, err := io.ReadFull(r, (local344)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -38979,8 +39473,8 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		NodeParam2       uint8
 		NametagFontSize  uint32 // 0xffffffff means nil.
 		NametagScaleZ    uint8
-	}))(obj)).Visual) = string(local339)
-	for local341 := range (*(*(struct {
+	}))(obj)).Visual) = string(local344)
+	for local346 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -39064,13 +39558,13 @@ func (obj *AOProps) deserialize(r io.Reader) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).VisualSize)[local341]
+			}))(obj)).VisualSize)[local346]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	var local342 uint16
+	var local347 uint16
 	{
-		p := &local342
+		p := &local347
 		*p = read16(r)
 	}
 	((*(*(struct {
@@ -39114,8 +39608,8 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		NodeParam2       uint8
 		NametagFontSize  uint32 // 0xffffffff means nil.
 		NametagScaleZ    uint8
-	}))(obj)).Textures) = make([]Texture, local342)
-	for local343 := range (*(*(struct {
+	}))(obj)).Textures) = make([]Texture, local347)
+	for local348 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -39199,15 +39693,15 @@ func (obj *AOProps) deserialize(r io.Reader) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).Textures)[local343]).deserialize(r)
+			}))(obj)).Textures)[local348]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 		}
 	}
-	for local344 := range (*(*(struct {
+	for local349 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -39291,11 +39785,11 @@ func (obj *AOProps) deserialize(r io.Reader) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).SpriteSheetSize)[local344]
+			}))(obj)).SpriteSheetSize)[local349]
 			*p = int16(read16(r))
 		}
 	}
-	for local345 := range (*(*(struct {
+	for local350 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -39379,7 +39873,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).SpritePos)[local345]
+			}))(obj)).SpritePos)[local350]
 			*p = int16(read16(r))
 		}
 	}
@@ -39532,15 +40026,15 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		}))(obj)).RotateSpeed
 		*p = math.Float32frombits(read32(r))
 	}
-	var local346 []uint8
-	var local347 uint16
+	var local351 []uint8
+	var local352 uint16
 	{
-		p := &local347
+		p := &local352
 		*p = read16(r)
 	}
-	(local346) = make([]uint8, local347)
+	(local351) = make([]uint8, local352)
 	{
-		_, err := io.ReadFull(r, (local346)[:])
+		_, err := io.ReadFull(r, (local351)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -39584,10 +40078,10 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		NodeParam2       uint8
 		NametagFontSize  uint32 // 0xffffffff means nil.
 		NametagScaleZ    uint8
-	}))(obj)).Mesh) = string(local346)
-	var local348 uint16
+	}))(obj)).Mesh) = string(local351)
+	var local353 uint16
 	{
-		p := &local348
+		p := &local353
 		*p = read16(r)
 	}
 	((*(*(struct {
@@ -39631,8 +40125,8 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		NodeParam2       uint8
 		NametagFontSize  uint32 // 0xffffffff means nil.
 		NametagScaleZ    uint8
-	}))(obj)).Colors) = make([]color.NRGBA, local348)
-	for local349 := range (*(*(struct {
+	}))(obj)).Colors) = make([]color.NRGBA, local353)
+	for local354 := range (*(*(struct {
 		MaxHP            uint16 // Player only.
 		CollideWithNodes bool
 		Weight           float32 // deprecated
@@ -39716,7 +40210,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 				NodeParam2       uint8
 				NametagFontSize  uint32 // 0xffffffff means nil.
 				NametagScaleZ    uint8
-			}))(obj)).Colors)[local349]
+			}))(obj)).Colors)[local354]
 			*p = color.NRGBA{A: read8(r), R: read8(r), G: read8(r), B: read8(r)}
 		}
 	}
@@ -39966,15 +40460,15 @@ func (obj *AOProps) deserialize(r io.Reader) {
 			chk(fmt.Errorf("invalid bool: %d", n))
 		}
 	}
-	var local350 []uint8
-	var local351 uint16
+	var local355 []uint8
+	var local356 uint16
 	{
-		p := &local351
+		p := &local356
 		*p = read16(r)
 	}
-	(local350) = make([]uint8, local351)
+	(local355) = make([]uint8, local356)
 	{
-		_, err := io.ReadFull(r, (local350)[:])
+		_, err := io.ReadFull(r, (local355)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -40018,7 +40512,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		NodeParam2       uint8
 		NametagFontSize  uint32 // 0xffffffff means nil.
 		NametagScaleZ    uint8
-	}))(obj)).Nametag) = string(local350)
+	}))(obj)).Nametag) = string(local355)
 	{
 		p := &(*(*(struct {
 			MaxHP            uint16 // Player only.
@@ -40109,15 +40603,15 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		}))(obj)).FaceRotateSpeed
 		*p = math.Float32frombits(read32(r))
 	}
-	var local352 []uint8
-	var local353 uint16
+	var local357 []uint8
+	var local358 uint16
 	{
-		p := &local353
+		p := &local358
 		*p = read16(r)
 	}
-	(local352) = make([]uint8, local353)
+	(local357) = make([]uint8, local358)
 	{
-		_, err := io.ReadFull(r, (local352)[:])
+		_, err := io.ReadFull(r, (local357)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -40161,16 +40655,16 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		NodeParam2       uint8
 		NametagFontSize  uint32 // 0xffffffff means nil.
 		NametagScaleZ    uint8
-	}))(obj)).Infotext) = string(local352)
-	var local354 []uint8
-	var local355 uint16
+	}))(obj)).Infotext) = string(local357)
+	var local359 []uint8
+	var local360 uint16
 	{
-		p := &local355
+		p := &local360
 		*p = read16(r)
 	}
-	(local354) = make([]uint8, local355)
+	(local359) = make([]uint8, local360)
 	{
-		_, err := io.ReadFull(r, (local354)[:])
+		_, err := io.ReadFull(r, (local359)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -40214,7 +40708,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		NodeParam2       uint8
 		NametagFontSize  uint32 // 0xffffffff means nil.
 		NametagScaleZ    uint8
-	}))(obj)).Itemstring) = string(local354)
+	}))(obj)).Itemstring) = string(local359)
 	{
 		p := &(*(*(struct {
 			MaxHP            uint16 // Player only.
@@ -40494,7 +40988,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -40744,7 +41238,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Content", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -40943,7 +41437,7 @@ func (obj *AOPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -40959,7 +41453,7 @@ func (obj *AOPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -40975,9 +41469,9 @@ func (obj *AOPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
-	for local356 := range (*(*(struct {
+	for local361 := range (*(*(struct {
 		Pos
 		Vel, Acc Vec
 		Rot      [3]float32
@@ -40995,7 +41489,7 @@ func (obj *AOPos) serialize(w io.Writer) {
 				Interpolate    bool
 				End            bool
 				UpdateInterval float32
-			}))(obj)).Rot)[local356]
+			}))(obj)).Rot)[local361]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -41060,7 +41554,7 @@ func (obj *AOPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -41076,7 +41570,7 @@ func (obj *AOPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -41092,9 +41586,9 @@ func (obj *AOPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
-	for local357 := range (*(*(struct {
+	for local362 := range (*(*(struct {
 		Pos
 		Vel, Acc Vec
 		Rot      [3]float32
@@ -41112,7 +41606,7 @@ func (obj *AOPos) deserialize(r io.Reader) {
 				Interpolate    bool
 				End            bool
 				UpdateInterval float32
-			}))(obj)).Rot)[local357]
+			}))(obj)).Rot)[local362]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -41169,7 +41663,7 @@ func (obj *AOPos) deserialize(r io.Reader) {
 }
 
 func (obj *AOSprite) serialize(w io.Writer) {
-	for local358 := range (*(*(struct {
+	for local363 := range (*(*(struct {
 		Frame0          [2]int16
 		Frames          uint16
 		FrameDuration   float32
@@ -41181,7 +41675,7 @@ func (obj *AOSprite) serialize(w io.Writer) {
 				Frames          uint16
 				FrameDuration   float32
 				ViewAngleFrames bool
-			}))(obj)).Frame0)[local358]
+			}))(obj)).Frame0)[local363]
 			write16(w, uint16(x))
 		}
 	}
@@ -41219,7 +41713,7 @@ func (obj *AOSprite) serialize(w io.Writer) {
 }
 
 func (obj *AOSprite) deserialize(r io.Reader) {
-	for local359 := range (*(*(struct {
+	for local364 := range (*(*(struct {
 		Frame0          [2]int16
 		Frames          uint16
 		FrameDuration   float32
@@ -41231,7 +41725,7 @@ func (obj *AOSprite) deserialize(r io.Reader) {
 				Frames          uint16
 				FrameDuration   float32
 				ViewAngleFrames bool
-			}))(obj)).Frame0)[local359]
+			}))(obj)).Frame0)[local364]
 			*p = int16(read16(r))
 		}
 	}
@@ -41302,21 +41796,21 @@ func (obj *Group) serialize(w io.Writer) {
 }
 
 func (obj *Group) deserialize(r io.Reader) {
-	var local360 []uint8
-	var local361 uint16
+	var local365 []uint8
+	var local366 uint16
 	{
-		p := &local361
+		p := &local366
 		*p = read16(r)
 	}
-	(local360) = make([]uint8, local361)
+	(local365) = make([]uint8, local366)
 	{
-		_, err := io.ReadFull(r, (local360)[:])
+		_, err := io.ReadFull(r, (local365)[:])
 		chk(err)
 	}
 	((*(*(struct {
 		Name   string
 		Rating int16
-	}))(obj)).Name) = string(local360)
+	}))(obj)).Name) = string(local365)
 	{
 		p := &(*(*(struct {
 			Name   string
@@ -41327,7 +41821,7 @@ func (obj *Group) deserialize(r io.Reader) {
 }
 
 func (obj *AOAnim) serialize(w io.Writer) {
-	for local362 := range (*(*(struct {
+	for local367 := range (*(*(struct {
 		Frames [2]int32
 		Speed  float32
 		Blend  float32
@@ -41339,7 +41833,7 @@ func (obj *AOAnim) serialize(w io.Writer) {
 				Speed  float32
 				Blend  float32
 				NoLoop bool
-			}))(obj)).Frames)[local362]
+			}))(obj)).Frames)[local367]
 			write32(w, uint32(x))
 		}
 	}
@@ -41377,7 +41871,7 @@ func (obj *AOAnim) serialize(w io.Writer) {
 }
 
 func (obj *AOAnim) deserialize(r io.Reader) {
-	for local363 := range (*(*(struct {
+	for local368 := range (*(*(struct {
 		Frames [2]int32
 		Speed  float32
 		Blend  float32
@@ -41389,7 +41883,7 @@ func (obj *AOAnim) deserialize(r io.Reader) {
 				Speed  float32
 				Blend  float32
 				NoLoop bool
-			}))(obj)).Frames)[local363]
+			}))(obj)).Frames)[local368]
 			*p = int32(read32(r))
 		}
 	}
@@ -41444,9 +41938,9 @@ func (obj *AOBoneOverride) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
-	for local364 := range (*(*(struct {
+	for local369 := range (*(*(struct {
 		Pos              Vec
 		Rot              [3]float32
 		Scale            [3]float32
@@ -41464,11 +41958,11 @@ func (obj *AOBoneOverride) serialize(w io.Writer) {
 				RotInterpTimer   float32
 				ScaleInterpTimer float32
 				Absolute         AbsoluteFlag
-			}))(obj)).Rot)[local364]
+			}))(obj)).Rot)[local369]
 			write32(w, math.Float32bits(x))
 		}
 	}
-	for local365 := range (*(*(struct {
+	for local370 := range (*(*(struct {
 		Pos              Vec
 		Rot              [3]float32
 		Scale            [3]float32
@@ -41486,7 +41980,7 @@ func (obj *AOBoneOverride) serialize(w io.Writer) {
 				RotInterpTimer   float32
 				ScaleInterpTimer float32
 				Absolute         AbsoluteFlag
-			}))(obj)).Scale)[local365]
+			}))(obj)).Scale)[local370]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -41540,7 +42034,7 @@ func (obj *AOBoneOverride) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AbsoluteFlag", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AbsoluteFlag", err))
 	}
 }
 
@@ -41559,9 +42053,9 @@ func (obj *AOBoneOverride) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
-	for local366 := range (*(*(struct {
+	for local371 := range (*(*(struct {
 		Pos              Vec
 		Rot              [3]float32
 		Scale            [3]float32
@@ -41579,11 +42073,11 @@ func (obj *AOBoneOverride) deserialize(r io.Reader) {
 				RotInterpTimer   float32
 				ScaleInterpTimer float32
 				Absolute         AbsoluteFlag
-			}))(obj)).Rot)[local366]
+			}))(obj)).Rot)[local371]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	for local367 := range (*(*(struct {
+	for local372 := range (*(*(struct {
 		Pos              Vec
 		Rot              [3]float32
 		Scale            [3]float32
@@ -41601,7 +42095,7 @@ func (obj *AOBoneOverride) deserialize(r io.Reader) {
 				RotInterpTimer   float32
 				ScaleInterpTimer float32
 				Absolute         AbsoluteFlag
-			}))(obj)).Scale)[local367]
+			}))(obj)).Scale)[local372]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -41655,7 +42149,7 @@ func (obj *AOBoneOverride) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AbsoluteFlag", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AbsoluteFlag", err))
 	}
 }
 
@@ -41672,7 +42166,7 @@ func (obj *AOAttach) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	if len(([]byte((*(*(struct {
 		ParentID     AOID
@@ -41715,9 +42209,9 @@ func (obj *AOAttach) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
-	for local368 := range (*(*(struct {
+	for local373 := range (*(*(struct {
 		ParentID     AOID
 		Bone         string
 		Pos          Vec
@@ -41731,7 +42225,7 @@ func (obj *AOAttach) serialize(w io.Writer) {
 				Pos          Vec
 				Rot          [3]float32
 				ForceVisible bool
-			}))(obj)).Rot)[local368]
+			}))(obj)).Rot)[local373]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -41764,17 +42258,17 @@ func (obj *AOAttach) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
-	var local369 []uint8
-	var local370 uint16
+	var local374 []uint8
+	var local375 uint16
 	{
-		p := &local370
+		p := &local375
 		*p = read16(r)
 	}
-	(local369) = make([]uint8, local370)
+	(local374) = make([]uint8, local375)
 	{
-		_, err := io.ReadFull(r, (local369)[:])
+		_, err := io.ReadFull(r, (local374)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -41783,7 +42277,7 @@ func (obj *AOAttach) deserialize(r io.Reader) {
 		Pos          Vec
 		Rot          [3]float32
 		ForceVisible bool
-	}))(obj)).Bone) = string(local369)
+	}))(obj)).Bone) = string(local374)
 	if err := pcall(func() {
 		((*(*(struct {
 			ParentID     AOID
@@ -41796,9 +42290,9 @@ func (obj *AOAttach) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 	}
-	for local371 := range (*(*(struct {
+	for local376 := range (*(*(struct {
 		ParentID     AOID
 		Bone         string
 		Pos          Vec
@@ -41812,7 +42306,7 @@ func (obj *AOAttach) deserialize(r io.Reader) {
 				Pos          Vec
 				Rot          [3]float32
 				ForceVisible bool
-			}))(obj)).Rot)[local371]
+			}))(obj)).Rot)[local376]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -42314,7 +42808,7 @@ func (obj *NodeMetaField) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Field", err))
 	}
 	{
 		x := (*(*(struct {
@@ -42339,7 +42833,7 @@ func (obj *NodeMetaField) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Field", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -42415,9 +42909,9 @@ func (obj *DrawType) deserialize(r io.Reader) {
 
 func (obj *TileDef) serialize(w io.Writer) {
 	{
-		local372 := uint8(6)
+		local377 := uint8(6)
 		{
-			x := local372
+			x := local377
 			write8(w, uint8(x))
 		}
 	}
@@ -42440,7 +42934,7 @@ func (obj *TileDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -42461,7 +42955,7 @@ func (obj *TileDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -42482,7 +42976,7 @@ func (obj *TileDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileFlags", err))
 	}
 	if (*(*(struct {
 		Texture
@@ -42615,21 +43109,21 @@ func (obj *TileDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlignType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AlignType", err))
 		}
 	}
 }
 
 func (obj *TileDef) deserialize(r io.Reader) {
 	{
-		var local373 uint8
-		local374 := uint8(6)
+		var local378 uint8
+		local379 := uint8(6)
 		{
-			p := &local373
+			p := &local378
 			*p = read8(r)
 		}
-		if local373 != local374 {
-			chk(fmt.Errorf("const %v: %v", "uint8(6)", local373))
+		if local378 != local379 {
+			chk(fmt.Errorf("const %v: %v", "uint8(6)", local378))
 		}
 	}
 	if err := pcall(func() {
@@ -42651,7 +43145,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -42672,7 +43166,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -42693,7 +43187,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileFlags", err))
 	}
 	if (*(*(struct {
 		Texture
@@ -42826,7 +43320,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlignType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AlignType", err))
 		}
 	}
 }
@@ -42875,9 +43369,9 @@ func (obj *LiquidType) deserialize(r io.Reader) {
 
 func (obj *NodeBox) serialize(w io.Writer) {
 	{
-		local375 := uint8(6)
+		local380 := uint8(6)
 		{
-			x := local375
+			x := local380
 			write8(w, uint8(x))
 		}
 	}
@@ -42899,7 +43393,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBoxType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBoxType", err))
 	}
 	if !((*(*(struct {
 		Type NodeBoxType
@@ -42947,7 +43441,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -42967,7 +43461,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -42987,7 +43481,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 	if t := (*(*(struct {
@@ -43034,7 +43528,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			}))(obj)).Fixed)))
 			write16(w, uint16(x))
 		}
-		for local376 := range (*(*(struct {
+		for local381 := range (*(*(struct {
 			Type NodeBoxType
 
 			//mt:if %s.Type == MountedBox
@@ -43060,12 +43554,12 @@ func (obj *NodeBox) serialize(w io.Writer) {
 					//mt:if %s.Type == ConnectedBox
 					ConnDirs, DiscoDirs  DirBoxes
 					DiscoAll, DiscoSides []Box
-				}))(obj)).Fixed)[local376]).serialize(w)
+				}))(obj)).Fixed)[local381]).serialize(w)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 			}
 		}
 	}
@@ -43100,7 +43594,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DirBoxes", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -43120,7 +43614,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DirBoxes", err))
 		}
 		if len(((*(*(struct {
 			Type NodeBoxType
@@ -43153,7 +43647,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			}))(obj)).DiscoAll)))
 			write16(w, uint16(x))
 		}
-		for local377 := range (*(*(struct {
+		for local382 := range (*(*(struct {
 			Type NodeBoxType
 
 			//mt:if %s.Type == MountedBox
@@ -43179,12 +43673,12 @@ func (obj *NodeBox) serialize(w io.Writer) {
 					//mt:if %s.Type == ConnectedBox
 					ConnDirs, DiscoDirs  DirBoxes
 					DiscoAll, DiscoSides []Box
-				}))(obj)).DiscoAll)[local377]).serialize(w)
+				}))(obj)).DiscoAll)[local382]).serialize(w)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 			}
 		}
 		if len(((*(*(struct {
@@ -43218,7 +43712,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			}))(obj)).DiscoSides)))
 			write16(w, uint16(x))
 		}
-		for local378 := range (*(*(struct {
+		for local383 := range (*(*(struct {
 			Type NodeBoxType
 
 			//mt:if %s.Type == MountedBox
@@ -43244,12 +43738,12 @@ func (obj *NodeBox) serialize(w io.Writer) {
 					//mt:if %s.Type == ConnectedBox
 					ConnDirs, DiscoDirs  DirBoxes
 					DiscoAll, DiscoSides []Box
-				}))(obj)).DiscoSides)[local378]).serialize(w)
+				}))(obj)).DiscoSides)[local383]).serialize(w)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 			}
 		}
 	}
@@ -43257,14 +43751,14 @@ func (obj *NodeBox) serialize(w io.Writer) {
 
 func (obj *NodeBox) deserialize(r io.Reader) {
 	{
-		var local379 uint8
-		local380 := uint8(6)
+		var local384 uint8
+		local385 := uint8(6)
 		{
-			p := &local379
+			p := &local384
 			*p = read8(r)
 		}
-		if local379 != local380 {
-			chk(fmt.Errorf("const %v: %v", "uint8(6)", local379))
+		if local384 != local385 {
+			chk(fmt.Errorf("const %v: %v", "uint8(6)", local384))
 		}
 	}
 	if err := pcall(func() {
@@ -43285,7 +43779,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBoxType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.NodeBoxType", err))
 	}
 	if !((*(*(struct {
 		Type NodeBoxType
@@ -43333,7 +43827,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -43353,7 +43847,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -43373,7 +43867,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 	if t := (*(*(struct {
@@ -43389,9 +43883,9 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 		ConnDirs, DiscoDirs  DirBoxes
 		DiscoAll, DiscoSides []Box
 	}))(obj)).Type; t == FixedBox || t == LeveledBox || t == ConnectedBox {
-		var local381 uint16
+		var local386 uint16
 		{
-			p := &local381
+			p := &local386
 			*p = read16(r)
 		}
 		((*(*(struct {
@@ -43406,8 +43900,8 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			//mt:if %s.Type == ConnectedBox
 			ConnDirs, DiscoDirs  DirBoxes
 			DiscoAll, DiscoSides []Box
-		}))(obj)).Fixed) = make([]Box, local381)
-		for local382 := range (*(*(struct {
+		}))(obj)).Fixed) = make([]Box, local386)
+		for local387 := range (*(*(struct {
 			Type NodeBoxType
 
 			//mt:if %s.Type == MountedBox
@@ -43433,12 +43927,12 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 					//mt:if %s.Type == ConnectedBox
 					ConnDirs, DiscoDirs  DirBoxes
 					DiscoAll, DiscoSides []Box
-				}))(obj)).Fixed)[local382]).deserialize(r)
+				}))(obj)).Fixed)[local387]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 			}
 		}
 	}
@@ -43473,7 +43967,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DirBoxes", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -43493,11 +43987,11 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DirBoxes", err))
 		}
-		var local383 uint16
+		var local388 uint16
 		{
-			p := &local383
+			p := &local388
 			*p = read16(r)
 		}
 		((*(*(struct {
@@ -43512,8 +44006,8 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			//mt:if %s.Type == ConnectedBox
 			ConnDirs, DiscoDirs  DirBoxes
 			DiscoAll, DiscoSides []Box
-		}))(obj)).DiscoAll) = make([]Box, local383)
-		for local384 := range (*(*(struct {
+		}))(obj)).DiscoAll) = make([]Box, local388)
+		for local389 := range (*(*(struct {
 			Type NodeBoxType
 
 			//mt:if %s.Type == MountedBox
@@ -43539,17 +44033,17 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 					//mt:if %s.Type == ConnectedBox
 					ConnDirs, DiscoDirs  DirBoxes
 					DiscoAll, DiscoSides []Box
-				}))(obj)).DiscoAll)[local384]).deserialize(r)
+				}))(obj)).DiscoAll)[local389]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 			}
 		}
-		var local385 uint16
+		var local390 uint16
 		{
-			p := &local385
+			p := &local390
 			*p = read16(r)
 		}
 		((*(*(struct {
@@ -43564,8 +44058,8 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			//mt:if %s.Type == ConnectedBox
 			ConnDirs, DiscoDirs  DirBoxes
 			DiscoAll, DiscoSides []Box
-		}))(obj)).DiscoSides) = make([]Box, local385)
-		for local386 := range (*(*(struct {
+		}))(obj)).DiscoSides) = make([]Box, local390)
+		for local391 := range (*(*(struct {
 			Type NodeBoxType
 
 			//mt:if %s.Type == MountedBox
@@ -43591,12 +44085,12 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 					//mt:if %s.Type == ConnectedBox
 					ConnDirs, DiscoDirs  DirBoxes
 					DiscoAll, DiscoSides []Box
-				}))(obj)).DiscoSides)[local386]).deserialize(r)
+				}))(obj)).DiscoSides)[local391]).deserialize(r)
 			}); err != nil {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 			}
 		}
 	}
@@ -43647,21 +44141,21 @@ func (obj *SoundDef) serialize(w io.Writer) {
 }
 
 func (obj *SoundDef) deserialize(r io.Reader) {
-	var local387 []uint8
-	var local388 uint16
+	var local392 []uint8
+	var local393 uint16
 	{
-		p := &local388
+		p := &local393
 		*p = read16(r)
 	}
-	(local387) = make([]uint8, local388)
+	(local392) = make([]uint8, local393)
 	{
-		_, err := io.ReadFull(r, (local387)[:])
+		_, err := io.ReadFull(r, (local392)[:])
 		chk(err)
 	}
 	((*(*(struct {
 		Name              string
 		Gain, Pitch, Fade float32
-	}))(obj)).Name) = string(local387)
+	}))(obj)).Name) = string(local392)
 	{
 		p := &(*(*(struct {
 			Name              string
@@ -43757,9 +44251,9 @@ func (obj *LitFromBlks) deserialize(r io.Reader) {
 
 func (obj *AOInitData) serialize(w io.Writer) {
 	{
-		local389 := uint8(1)
+		local394 := uint8(1)
 		{
-			x := local389
+			x := local394
 			write8(w, uint8(x))
 		}
 	}
@@ -43863,7 +44357,7 @@ func (obj *AOInitData) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -43886,9 +44380,9 @@ func (obj *AOInitData) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
-	for local390 := range (*(*(struct {
+	for local395 := range (*(*(struct {
 
 		// For players.
 		Name     string
@@ -43920,7 +44414,7 @@ func (obj *AOInitData) serialize(w io.Writer) {
 
 				// See (de)serialize.fmt.
 				Msgs []AOMsg
-			}))(obj)).Rot)[local390]
+			}))(obj)).Rot)[local395]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -43981,25 +44475,25 @@ func (obj *AOInitData) serialize(w io.Writer) {
 
 func (obj *AOInitData) deserialize(r io.Reader) {
 	{
-		var local391 uint8
-		local392 := uint8(1)
+		var local396 uint8
+		local397 := uint8(1)
 		{
-			p := &local391
+			p := &local396
 			*p = read8(r)
 		}
-		if local391 != local392 {
-			chk(fmt.Errorf("const %v: %v", "uint8(1)", local391))
+		if local396 != local397 {
+			chk(fmt.Errorf("const %v: %v", "uint8(1)", local396))
 		}
 	}
-	var local393 []uint8
-	var local394 uint16
+	var local398 []uint8
+	var local399 uint16
 	{
-		p := &local394
+		p := &local399
 		*p = read16(r)
 	}
-	(local393) = make([]uint8, local394)
+	(local398) = make([]uint8, local399)
 	{
-		_, err := io.ReadFull(r, (local393)[:])
+		_, err := io.ReadFull(r, (local398)[:])
 		chk(err)
 	}
 	((*(*(struct {
@@ -44017,7 +44511,7 @@ func (obj *AOInitData) deserialize(r io.Reader) {
 
 		// See (de)serialize.fmt.
 		Msgs []AOMsg
-	}))(obj)).Name) = string(local393)
+	}))(obj)).Name) = string(local398)
 	{
 		p := &(*(*(struct {
 
@@ -44065,7 +44559,7 @@ func (obj *AOInitData) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -44088,9 +44582,9 @@ func (obj *AOInitData) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Pos", err))
 	}
-	for local395 := range (*(*(struct {
+	for local400 := range (*(*(struct {
 
 		// For players.
 		Name     string
@@ -44122,7 +44616,7 @@ func (obj *AOInitData) deserialize(r io.Reader) {
 
 				// See (de)serialize.fmt.
 				Msgs []AOMsg
-			}))(obj)).Rot)[local395]
+			}))(obj)).Rot)[local400]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -44201,7 +44695,7 @@ func (obj *AnimTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -44212,7 +44706,7 @@ func (obj *AnimTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 }
 
@@ -44226,7 +44720,7 @@ func (obj *AnimTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -44237,7 +44731,7 @@ func (obj *AnimTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TileAnim", err))
 	}
 }
 
@@ -44320,9 +44814,9 @@ func (obj *ToolCaps) serialize(w io.Writer) {
 				PunchUses int32
 			}))(obj)).NonNil {
 				{
-					local396 := uint8(5)
+					local401 := uint8(5)
 					{
-						x := local396
+						x := local401
 						write8(w, uint8(x))
 					}
 				}
@@ -44401,7 +44895,7 @@ func (obj *ToolCaps) serialize(w io.Writer) {
 					}))(obj)).GroupCaps)))
 					write32(w, uint32(x))
 				}
-				for local397 := range (*(*(struct {
+				for local402 := range (*(*(struct {
 					//mt:if _ = %s; false
 					NonNil bool
 
@@ -44433,12 +44927,12 @@ func (obj *ToolCaps) serialize(w io.Writer) {
 
 							//mt:32tou16
 							PunchUses int32
-						}))(obj)).GroupCaps)[local397]).serialize(w)
+						}))(obj)).GroupCaps)[local402]).serialize(w)
 					}); err != nil {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolGroupCap", err))
+						chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ToolGroupCap", err))
 					}
 				}
 				if len(((*(*(struct {
@@ -44478,7 +44972,7 @@ func (obj *ToolCaps) serialize(w io.Writer) {
 					}))(obj)).DmgGroups)))
 					write32(w, uint32(x))
 				}
-				for local398 := range (*(*(struct {
+				for local403 := range (*(*(struct {
 					//mt:if _ = %s; false
 					NonNil bool
 
@@ -44510,12 +45004,12 @@ func (obj *ToolCaps) serialize(w io.Writer) {
 
 							//mt:32tou16
 							PunchUses int32
-						}))(obj)).DmgGroups)[local398]).serialize(w)
+						}))(obj)).DmgGroups)[local403]).serialize(w)
 					}); err != nil {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+						chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 					}
 				}
 				{
@@ -44644,14 +45138,14 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 				PunchUses int32
 			}))(obj)).NonNil {
 				{
-					var local399 uint8
-					local400 := uint8(5)
+					var local404 uint8
+					local405 := uint8(5)
 					{
-						p := &local399
+						p := &local404
 						*p = read8(r)
 					}
-					if local399 != local400 {
-						chk(fmt.Errorf("const %v: %v", "uint8(5)", local399))
+					if local404 != local405 {
+						chk(fmt.Errorf("const %v: %v", "uint8(5)", local404))
 					}
 				}
 				{
@@ -44692,9 +45186,9 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 					}))(obj)).MaxDropLvl
 					*p = int16(read16(r))
 				}
-				var local401 uint32
+				var local406 uint32
 				{
-					p := &local401
+					p := &local406
 					*p = read32(r)
 				}
 				((*(*(struct {
@@ -44712,8 +45206,8 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 
 					//mt:32tou16
 					PunchUses int32
-				}))(obj)).GroupCaps) = make([]ToolGroupCap, local401)
-				for local402 := range (*(*(struct {
+				}))(obj)).GroupCaps) = make([]ToolGroupCap, local406)
+				for local407 := range (*(*(struct {
 					//mt:if _ = %s; false
 					NonNil bool
 
@@ -44745,17 +45239,17 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 
 							//mt:32tou16
 							PunchUses int32
-						}))(obj)).GroupCaps)[local402]).deserialize(r)
+						}))(obj)).GroupCaps)[local407]).deserialize(r)
 					}); err != nil {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolGroupCap", err))
+						chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.ToolGroupCap", err))
 					}
 				}
-				var local403 uint32
+				var local408 uint32
 				{
-					p := &local403
+					p := &local408
 					*p = read32(r)
 				}
 				((*(*(struct {
@@ -44773,8 +45267,8 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 
 					//mt:32tou16
 					PunchUses int32
-				}))(obj)).DmgGroups) = make([]Group, local403)
-				for local404 := range (*(*(struct {
+				}))(obj)).DmgGroups) = make([]Group, local408)
+				for local409 := range (*(*(struct {
 					//mt:if _ = %s; false
 					NonNil bool
 
@@ -44806,17 +45300,17 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 
 							//mt:32tou16
 							PunchUses int32
-						}))(obj)).DmgGroups)[local404]).deserialize(r)
+						}))(obj)).DmgGroups)[local409]).deserialize(r)
 					}); err != nil {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+						chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Group", err))
 					}
 				}
-				var local405 uint16
+				var local410 uint16
 				{
-					p := &local405
+					p := &local410
 					*p = read16(r)
 				}
 				(*(*(struct {
@@ -44834,7 +45328,7 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 
 					//mt:32tou16
 					PunchUses int32
-				}))(obj)).PunchUses = int32(local405)
+				}))(obj)).PunchUses = int32(local410)
 			}
 		}
 		if r.N > 0 {
@@ -44852,7 +45346,7 @@ func (obj *TouchInteraction) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -44862,7 +45356,7 @@ func (obj *TouchInteraction) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -44872,7 +45366,7 @@ func (obj *TouchInteraction) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteractionMode", err))
 	}
 }
 
@@ -44885,7 +45379,7 @@ func (obj *TouchInteraction) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -44895,7 +45389,7 @@ func (obj *TouchInteraction) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -44905,15 +45399,15 @@ func (obj *TouchInteraction) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TouchInteractionMode", err))
 	}
 }
 
 func (obj *WearBarParams) serialize(w io.Writer) {
 	{
-		local406 := uint8(1)
+		local411 := uint8(1)
 		{
-			x := local406
+			x := local411
 			write8(w, uint8(x))
 		}
 	}
@@ -44927,7 +45421,7 @@ func (obj *WearBarParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.BlendMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.BlendMode", err))
 	}
 	{
 		x := (*(*(struct {
@@ -44953,14 +45447,14 @@ func (obj *WearBarParams) serialize(w io.Writer) {
 
 func (obj *WearBarParams) deserialize(r io.Reader) {
 	{
-		var local407 uint8
-		local408 := uint8(1)
+		var local412 uint8
+		local413 := uint8(1)
 		{
-			p := &local407
+			p := &local412
 			*p = read8(r)
 		}
-		if local407 != local408 {
-			chk(fmt.Errorf("const %v: %v", "uint8(1)", local407))
+		if local412 != local413 {
+			chk(fmt.Errorf("const %v: %v", "uint8(1)", local412))
 		}
 	}
 	if err := pcall(func() {
@@ -44973,7 +45467,7 @@ func (obj *WearBarParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.BlendMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.BlendMode", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -45000,7 +45494,7 @@ func (obj *WearBarParams) deserialize(r io.Reader) {
 }
 
 func (obj *RangeV3F32) serialize(w io.Writer) {
-	for local409 := range (*(*(struct {
+	for local414 := range (*(*(struct {
 		Min, Max [3]float32
 		Bias     float32
 	}))(obj)).Min {
@@ -45008,11 +45502,11 @@ func (obj *RangeV3F32) serialize(w io.Writer) {
 			x := ((*(*(struct {
 				Min, Max [3]float32
 				Bias     float32
-			}))(obj)).Min)[local409]
+			}))(obj)).Min)[local414]
 			write32(w, math.Float32bits(x))
 		}
 	}
-	for local410 := range (*(*(struct {
+	for local415 := range (*(*(struct {
 		Min, Max [3]float32
 		Bias     float32
 	}))(obj)).Max {
@@ -45020,7 +45514,7 @@ func (obj *RangeV3F32) serialize(w io.Writer) {
 			x := ((*(*(struct {
 				Min, Max [3]float32
 				Bias     float32
-			}))(obj)).Max)[local410]
+			}))(obj)).Max)[local415]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -45034,7 +45528,7 @@ func (obj *RangeV3F32) serialize(w io.Writer) {
 }
 
 func (obj *RangeV3F32) deserialize(r io.Reader) {
-	for local411 := range (*(*(struct {
+	for local416 := range (*(*(struct {
 		Min, Max [3]float32
 		Bias     float32
 	}))(obj)).Min {
@@ -45042,11 +45536,11 @@ func (obj *RangeV3F32) deserialize(r io.Reader) {
 			p := &((*(*(struct {
 				Min, Max [3]float32
 				Bias     float32
-			}))(obj)).Min)[local411]
+			}))(obj)).Min)[local416]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	for local412 := range (*(*(struct {
+	for local417 := range (*(*(struct {
 		Min, Max [3]float32
 		Bias     float32
 	}))(obj)).Max {
@@ -45054,7 +45548,7 @@ func (obj *RangeV3F32) deserialize(r io.Reader) {
 			p := &((*(*(struct {
 				Min, Max [3]float32
 				Bias     float32
-			}))(obj)).Max)[local412]
+			}))(obj)).Max)[local417]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -45169,7 +45663,7 @@ func (obj *TweenF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -45221,7 +45715,7 @@ func (obj *TweenF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -45273,7 +45767,7 @@ func (obj *TweenV2F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -45293,7 +45787,7 @@ func (obj *TweenV2F32) serialize(w io.Writer) {
 		}))(obj)).Beginning
 		write32(w, math.Float32bits(x))
 	}
-	for local413 := range (*(*(struct {
+	for local418 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -45305,11 +45799,11 @@ func (obj *TweenV2F32) serialize(w io.Writer) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [2]float32
-			}))(obj)).Start)[local413]
+			}))(obj)).Start)[local418]
 			write32(w, math.Float32bits(x))
 		}
 	}
-	for local414 := range (*(*(struct {
+	for local419 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -45321,7 +45815,7 @@ func (obj *TweenV2F32) serialize(w io.Writer) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [2]float32
-			}))(obj)).End)[local414]
+			}))(obj)).End)[local419]
 			write32(w, math.Float32bits(x))
 		}
 	}
@@ -45339,7 +45833,7 @@ func (obj *TweenV2F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -45359,7 +45853,7 @@ func (obj *TweenV2F32) deserialize(r io.Reader) {
 		}))(obj)).Beginning
 		*p = math.Float32frombits(read32(r))
 	}
-	for local415 := range (*(*(struct {
+	for local420 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -45371,11 +45865,11 @@ func (obj *TweenV2F32) deserialize(r io.Reader) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [2]float32
-			}))(obj)).Start)[local415]
+			}))(obj)).Start)[local420]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
-	for local416 := range (*(*(struct {
+	for local421 := range (*(*(struct {
 		Style      TweenStyle
 		Reps       uint16
 		Beginning  float32
@@ -45387,7 +45881,7 @@ func (obj *TweenV2F32) deserialize(r io.Reader) {
 				Reps       uint16
 				Beginning  float32
 				Start, End [2]float32
-			}))(obj)).End)[local416]
+			}))(obj)).End)[local421]
 			*p = math.Float32frombits(read32(r))
 		}
 	}
@@ -45408,27 +45902,27 @@ func (obj *HUDType) deserialize(r io.Reader) {
 }
 
 func (obj *Box) serialize(w io.Writer) {
-	for local417 := range *(*([2]Vec))(obj) {
+	for local422 := range *(*([2]Vec))(obj) {
 		if err := pcall(func() {
-			((*(*([2]Vec))(obj))[local417]).serialize(w)
+			((*(*([2]Vec))(obj))[local422]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 		}
 	}
 }
 
 func (obj *Box) deserialize(r io.Reader) {
-	for local418 := range *(*([2]Vec))(obj) {
+	for local423 := range *(*([2]Vec))(obj) {
 		if err := pcall(func() {
-			((*(*([2]Vec))(obj))[local418]).deserialize(r)
+			((*(*([2]Vec))(obj))[local423]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Vec", err))
 		}
 	}
 }
@@ -45503,7 +45997,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 		}))(obj)).Top)))
 		write16(w, uint16(x))
 	}
-	for local419 := range (*(*(struct {
+	for local424 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Top {
@@ -45511,12 +46005,12 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Top)[local419]).serialize(w)
+			}))(obj)).Top)[local424]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -45532,7 +46026,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 		}))(obj)).Bot)))
 		write16(w, uint16(x))
 	}
-	for local420 := range (*(*(struct {
+	for local425 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Bot {
@@ -45540,12 +46034,12 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Bot)[local420]).serialize(w)
+			}))(obj)).Bot)[local425]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -45561,7 +46055,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 		}))(obj)).Front)))
 		write16(w, uint16(x))
 	}
-	for local421 := range (*(*(struct {
+	for local426 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Front {
@@ -45569,12 +46063,12 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Front)[local421]).serialize(w)
+			}))(obj)).Front)[local426]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -45590,7 +46084,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 		}))(obj)).Left)))
 		write16(w, uint16(x))
 	}
-	for local422 := range (*(*(struct {
+	for local427 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Left {
@@ -45598,12 +46092,12 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Left)[local422]).serialize(w)
+			}))(obj)).Left)[local427]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -45619,7 +46113,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 		}))(obj)).Back)))
 		write16(w, uint16(x))
 	}
-	for local423 := range (*(*(struct {
+	for local428 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Back {
@@ -45627,12 +46121,12 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Back)[local423]).serialize(w)
+			}))(obj)).Back)[local428]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -45648,7 +46142,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 		}))(obj)).Right)))
 		write16(w, uint16(x))
 	}
-	for local424 := range (*(*(struct {
+	for local429 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Right {
@@ -45656,27 +46150,27 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Right)[local424]).serialize(w)
+			}))(obj)).Right)[local429]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 }
 
 func (obj *DirBoxes) deserialize(r io.Reader) {
-	var local425 uint16
+	var local430 uint16
 	{
-		p := &local425
+		p := &local430
 		*p = read16(r)
 	}
 	((*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
-	}))(obj)).Top) = make([]Box, local425)
-	for local426 := range (*(*(struct {
+	}))(obj)).Top) = make([]Box, local430)
+	for local431 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Top {
@@ -45684,24 +46178,24 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Top)[local426]).deserialize(r)
+			}))(obj)).Top)[local431]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
-	var local427 uint16
+	var local432 uint16
 	{
-		p := &local427
+		p := &local432
 		*p = read16(r)
 	}
 	((*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
-	}))(obj)).Bot) = make([]Box, local427)
-	for local428 := range (*(*(struct {
+	}))(obj)).Bot) = make([]Box, local432)
+	for local433 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Bot {
@@ -45709,24 +46203,24 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Bot)[local428]).deserialize(r)
+			}))(obj)).Bot)[local433]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
-	var local429 uint16
+	var local434 uint16
 	{
-		p := &local429
+		p := &local434
 		*p = read16(r)
 	}
 	((*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
-	}))(obj)).Front) = make([]Box, local429)
-	for local430 := range (*(*(struct {
+	}))(obj)).Front) = make([]Box, local434)
+	for local435 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Front {
@@ -45734,24 +46228,24 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Front)[local430]).deserialize(r)
+			}))(obj)).Front)[local435]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
-	var local431 uint16
+	var local436 uint16
 	{
-		p := &local431
+		p := &local436
 		*p = read16(r)
 	}
 	((*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
-	}))(obj)).Left) = make([]Box, local431)
-	for local432 := range (*(*(struct {
+	}))(obj)).Left) = make([]Box, local436)
+	for local437 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Left {
@@ -45759,24 +46253,24 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Left)[local432]).deserialize(r)
+			}))(obj)).Left)[local437]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
-	var local433 uint16
+	var local438 uint16
 	{
-		p := &local433
+		p := &local438
 		*p = read16(r)
 	}
 	((*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
-	}))(obj)).Back) = make([]Box, local433)
-	for local434 := range (*(*(struct {
+	}))(obj)).Back) = make([]Box, local438)
+	for local439 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Back {
@@ -45784,24 +46278,24 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Back)[local434]).deserialize(r)
+			}))(obj)).Back)[local439]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
-	var local435 uint16
+	var local440 uint16
 	{
-		p := &local435
+		p := &local440
 		*p = read16(r)
 	}
 	((*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
-	}))(obj)).Right) = make([]Box, local435)
-	for local436 := range (*(*(struct {
+	}))(obj)).Right) = make([]Box, local440)
+	for local441 := range (*(*(struct {
 		Top, Bot                 []Box
 		Front, Left, Back, Right []Box
 	}))(obj)).Right {
@@ -45809,12 +46303,12 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			(((*(*(struct {
 				Top, Bot                 []Box
 				Front, Left, Back, Right []Box
-			}))(obj)).Right)[local436]).deserialize(r)
+			}))(obj)).Right)[local441]).deserialize(r)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.Box", err))
 		}
 	}
 }
@@ -45916,107 +46410,6 @@ func (obj *ToolGroupCap) serialize(w io.Writer) {
 		}))(obj)).Times)))
 		write32(w, uint32(x))
 	}
-	for local437 := range (*(*(struct {
-		Name string
-
-		//mt:32to16
-		Uses int32
-
-		MaxLvl int16
-
-		//mt:len32
-		Times []DigTime
-	}))(obj)).Times {
-		if err := pcall(func() {
-			(((*(*(struct {
-				Name string
-
-				//mt:32to16
-				Uses int32
-
-				MaxLvl int16
-
-				//mt:len32
-				Times []DigTime
-			}))(obj)).Times)[local437]).serialize(w)
-		}); err != nil {
-			if err == io.EOF {
-				chk(io.EOF)
-			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DigTime", err))
-		}
-	}
-}
-
-func (obj *ToolGroupCap) deserialize(r io.Reader) {
-	var local438 []uint8
-	var local439 uint16
-	{
-		p := &local439
-		*p = read16(r)
-	}
-	(local438) = make([]uint8, local439)
-	{
-		_, err := io.ReadFull(r, (local438)[:])
-		chk(err)
-	}
-	((*(*(struct {
-		Name string
-
-		//mt:32to16
-		Uses int32
-
-		MaxLvl int16
-
-		//mt:len32
-		Times []DigTime
-	}))(obj)).Name) = string(local438)
-	var local440 int16
-	{
-		p := &local440
-		*p = int16(read16(r))
-	}
-	(*(*(struct {
-		Name string
-
-		//mt:32to16
-		Uses int32
-
-		MaxLvl int16
-
-		//mt:len32
-		Times []DigTime
-	}))(obj)).Uses = int32(local440)
-	{
-		p := &(*(*(struct {
-			Name string
-
-			//mt:32to16
-			Uses int32
-
-			MaxLvl int16
-
-			//mt:len32
-			Times []DigTime
-		}))(obj)).MaxLvl
-		*p = int16(read16(r))
-	}
-	var local441 uint32
-	{
-		p := &local441
-		*p = read32(r)
-	}
-	((*(*(struct {
-		Name string
-
-		//mt:32to16
-		Uses int32
-
-		MaxLvl int16
-
-		//mt:len32
-		Times []DigTime
-	}))(obj)).Times) = make([]DigTime, local441)
 	for local442 := range (*(*(struct {
 		Name string
 
@@ -46039,12 +46432,113 @@ func (obj *ToolGroupCap) deserialize(r io.Reader) {
 
 				//mt:len32
 				Times []DigTime
-			}))(obj)).Times)[local442]).deserialize(r)
+			}))(obj)).Times)[local442]).serialize(w)
 		}); err != nil {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DigTime", err))
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DigTime", err))
+		}
+	}
+}
+
+func (obj *ToolGroupCap) deserialize(r io.Reader) {
+	var local443 []uint8
+	var local444 uint16
+	{
+		p := &local444
+		*p = read16(r)
+	}
+	(local443) = make([]uint8, local444)
+	{
+		_, err := io.ReadFull(r, (local443)[:])
+		chk(err)
+	}
+	((*(*(struct {
+		Name string
+
+		//mt:32to16
+		Uses int32
+
+		MaxLvl int16
+
+		//mt:len32
+		Times []DigTime
+	}))(obj)).Name) = string(local443)
+	var local445 int16
+	{
+		p := &local445
+		*p = int16(read16(r))
+	}
+	(*(*(struct {
+		Name string
+
+		//mt:32to16
+		Uses int32
+
+		MaxLvl int16
+
+		//mt:len32
+		Times []DigTime
+	}))(obj)).Uses = int32(local445)
+	{
+		p := &(*(*(struct {
+			Name string
+
+			//mt:32to16
+			Uses int32
+
+			MaxLvl int16
+
+			//mt:len32
+			Times []DigTime
+		}))(obj)).MaxLvl
+		*p = int16(read16(r))
+	}
+	var local446 uint32
+	{
+		p := &local446
+		*p = read32(r)
+	}
+	((*(*(struct {
+		Name string
+
+		//mt:32to16
+		Uses int32
+
+		MaxLvl int16
+
+		//mt:len32
+		Times []DigTime
+	}))(obj)).Times) = make([]DigTime, local446)
+	for local447 := range (*(*(struct {
+		Name string
+
+		//mt:32to16
+		Uses int32
+
+		MaxLvl int16
+
+		//mt:len32
+		Times []DigTime
+	}))(obj)).Times {
+		if err := pcall(func() {
+			(((*(*(struct {
+				Name string
+
+				//mt:32to16
+				Uses int32
+
+				MaxLvl int16
+
+				//mt:len32
+				Times []DigTime
+			}))(obj)).Times)[local447]).deserialize(r)
+		}); err != nil {
+			if err == io.EOF {
+				chk(io.EOF)
+			}
+			chk(fmt.Errorf("%s: %w", "github.com/CryptechTest/mt.DigTime", err))
 		}
 	}
 }

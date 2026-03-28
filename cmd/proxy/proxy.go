@@ -18,7 +18,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/HimbeerserverDE/mt"
+	"github.com/CryptechTest/mt"
 )
 
 func main() {

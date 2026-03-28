@@ -18,7 +18,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/HimbeerserverDE/mt/rudp"
+	"github.com/CryptechTest/mt/rudp"
 )
 
 func main() {

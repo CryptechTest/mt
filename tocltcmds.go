@@ -7,7 +7,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/HimbeerserverDE/mt/rudp"
+	"github.com/CryptechTest/mt/rudp"
 )
 
 type ToCltCmd interface {
